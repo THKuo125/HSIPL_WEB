@@ -1,0 +1,42 @@
+.Footer{
+    padding: 1.5rem 0%;
+
+    //display: grid;
+    //background-color: #2f64a2;
+    //background-color: #002069;
+    background-image: url(https://template101386.motopreview.com/mt-demo/101300/101386/mt-content/uploads/2020/05/mt-2019-bg-main.jpg);
+    overflow: hidden;
+    //background:no-repeat;
+    //background-size: cover;
+    //background-image: url('../img/21.jpg');
+    //opacity: 95%;
+    .content{
+        padding:  0% 2rem;
+        display:flex;
+        justify-content: center;
+
+        table{
+            table-layout: auto;
+            td{
+                padding: 0;
+                span{
+                    padding: 0;
+                    color: white;
+
+                    i{
+                        padding: 1%;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+@media (max-width: 1024px) {
+    .Footer{
+        background-color   : #0c5497;
+        background-image: none;
+    }
+}
