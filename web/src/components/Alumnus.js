@@ -20,11 +20,18 @@ import CHENG from "../img/Alumnus/B10117012.jpg"
 import JIE from "../img/Alumnus/28170361_1565896336826751_50997770_o_edited.jpg"
 import OU from "../img/Alumnus/40325558_1807635766017799_4000352030055989248_n.jpg"
 import LONG from "../img/Alumnus/5351545-2.JPG.jpg"
-import JUN from "../img/members/134316.jpg"
-import FENG from "../img/members/S__7741515.jpg"
-import XUN from "../img/members/2591aw-1.jpg"
-import ZHI from "../img/members/14122121.jpg"
-import TI from "../img/members/S__7741513改.jpg"
+import JUN from "../img/Alumnus/134316.jpg"
+import FENG from "../img/Alumnus/S__7741515.jpg"
+import XUN from "../img/Alumnus/2591aw-1.jpg"
+import ZHI from "../img/Alumnus/14122121.jpg"
+import TI from "../img/Alumnus/S__7741513改.jpg"
+
+import WEI from "../img/Alumnus/M10917009.jpg"
+import YEE from "../img/Alumnus/M10917016.jpg"
+import HONG from "../img/Alumnus/M10917030.jpg"
+import ZONGHAN from "../img/Alumnus/M10917042.jpg"
+import GI from "../img/Alumnus/M10917044改.jpg"
+import YUN from "../img/Alumnus/M10917048.jpg"
 
 
 import { Descriptions } from 'antd';
@@ -460,8 +467,119 @@ const Alumnus = () => {
                     </div>
                   </div>
 
+                  <div className="pic_Al" id="lastpic_Al">
+                  <div className="card_bk">
+                    <img src={WEI} alt="WEI"></img>
+                    <div className="detail2_Al">
+                    <h4>鄒學緯</h4>
+                    <div className="Al_content">
+                        <Descriptions column={1}>
+                        <Descriptions.Item label="研究方向 ">高光譜影像處理</Descriptions.Item>
+                        <Descriptions.Item label="論文題目​ ">即時自動化生咖啡檢測系統開發 基於RGB-IR多光譜影像</Descriptions.Item>
+                        </Descriptions>
+                        </div>
+                        <div className="Email_Al">
+                          <a href="/#"><i class="fas fa-envelope mail"></i></a>
+                          <span>M10917009@yuntech.edu.tw</span>
+                        </div>
+                    </div> 
+                    </div>
+                  </div>      
 
-                  
+                  <div className="pic_Al" id="lastpic_Al">
+                  <div className="card_bk">
+                    <img src={YEE} alt="YEE"></img>
+                    <div className="detail2_Al">
+                    <h4>柯祉伊</h4>
+                    <div className="Al_content">
+                        <Descriptions column={1}>
+                        <Descriptions.Item label="研究方向 ">高光譜影像處理</Descriptions.Item>
+                        <Descriptions.Item label="論文題目​ ">高光譜智慧農業於食品安全應用以雞蛋與牛肉為例</Descriptions.Item>
+                        </Descriptions>
+                        </div>
+                        <div className="Email_Al">
+                          <a href="/#"><i class="fas fa-envelope mail"></i></a>
+                          <span>M10917016@yuntech.edu.tw</span>
+                        </div>
+                    </div> 
+                    </div>
+                  </div>
+
+                  <div className="pic_Al" id="lastpic_Al">
+                  <div className="card_bk">
+                    <img src={HONG} alt="HONG"></img>
+                    <div className="detail2_Al">
+                    <h4>張瑞鴻</h4>
+                    <div className="Al_content">
+                        <Descriptions column={1}>
+                        <Descriptions.Item label="研究方向 ">高光譜影像處理</Descriptions.Item>
+                        <Descriptions.Item label="論文題目​ ">即時高光譜影像花生瑕疵檢測技術開發</Descriptions.Item>
+                        </Descriptions>
+                        </div>
+                        <div className="Email_Al">
+                          <a href="/#"><i class="fas fa-envelope mail"></i></a>
+                          <span>M10917030@yuntech.edu.tw</span>
+                        </div>
+                    </div> 
+                    </div>
+                  </div>
+
+                  <div className="pic_Al" id="lastpic_Al">
+                  <div className="card_bk">
+                    <img src={ZONGHAN} alt="ZONGHAN"></img>
+                    <div className="detail2_Al">
+                    <h4>楊宗翰</h4>
+                    <div className="Al_content">
+                        <Descriptions column={1}>
+                        <Descriptions.Item label="研究方向 ">高光譜影像處理</Descriptions.Item>
+                        <Descriptions.Item label="論文題目​ ">高光譜智慧農業於食品安全應用以香料瑕疵檢測為例</Descriptions.Item>
+                        </Descriptions>
+                        </div>
+                        <div className="Email_Al">
+                          <a href="/#"><i class="fas fa-envelope mail"></i></a>
+                          <span>M10917042@yuntech.edu.tw</span>
+                        </div>
+                    </div> 
+                    </div>
+                  </div>
+
+                  <div className="pic_Al" id="lastpic_Al">
+                  <div className="card_bk">
+                    <img src={GI} alt="GI"></img>
+                    <div className="detail2_Al">
+                    <h4>蔡逢記</h4>
+                    <div className="Al_content">
+                        <Descriptions column={1}>
+                        <Descriptions.Item label="研究方向 ">高光譜影像處理</Descriptions.Item>
+                        <Descriptions.Item label="論文題目​ ">應用深度學習於智慧製造之技術開發以工業產品分級及瑕疵檢測為例</Descriptions.Item>
+                        </Descriptions>
+                        </div>
+                        <div className="Email_Al">
+                          <a href="/#"><i class="fas fa-envelope mail"></i></a>
+                          <span>M10917044@yuntech.edu.tw</span>
+                        </div>
+                    </div> 
+                    </div>
+                  </div>
+
+                  <div className="pic_Al" id="lastpic_Al">
+                  <div className="card_bk">
+                    <img src={YUN} alt="YUN"></img>
+                    <div className="detail2_Al">
+                    <h4>王美雲</h4>
+                    <div className="Al_content">
+                        <Descriptions column={1}>
+                        <Descriptions.Item label="研究方向 ">高光譜影像處理</Descriptions.Item>
+                        <Descriptions.Item label="論文題目​ ">高光譜智慧農業技術開發-以杏仁果瑕疵檢測為例</Descriptions.Item>
+                        </Descriptions>
+                        </div>
+                        <div className="Email_Al">
+                          <a href="/#"><i class="fas fa-envelope mail"></i></a>
+                          <span>M10917048@yuntech.edu.tw</span>
+                        </div>
+                    </div> 
+                    </div>
+                  </div>
 
                 </Slider>
               
