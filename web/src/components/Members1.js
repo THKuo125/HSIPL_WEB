@@ -170,7 +170,7 @@ function Arrow(props) {
 
 
 
-            <div className="master2">
+            <div className="master2" id="Junior">
                 <h2>Junior Students</h2>
             </div>
             

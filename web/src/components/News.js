@@ -56,9 +56,17 @@ const News = () => {
           <h3>
             <br />
             本實驗室陳士煜獲 <span className = "red">22屆 AOI論壇與展覽</span>活動邀請
-            <br/>
             展示 <span className="red"> 高光譜智慧農業於食品安全應用 - 以雞蛋為例 </span>
             <br/>
+            並獲 <span className="red">經濟日報</span> 報導 <a
+              target="_blank" rel="noopener noreferrer"
+              href="https://money.udn.com/money/story/5950/6662187?utm_source=ednlinemobile&utm_medium=share"
+              class ="red"
+            >
+              <u>
+              雲科大IRIS中心 AOI論壇秀實力
+              </u>
+            </a>
           </h3>
         </div>
 
