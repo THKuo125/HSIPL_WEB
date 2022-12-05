@@ -15,6 +15,7 @@ import img_202112NTR from "../img/News/202112NPR1.jpg"
 import img_PT202205 from "../img/News/Personnel_training202205.jpg"
 import ima_summerIRIS from "../img/News/20220803智慧辨識技術講座暨交流會議.jpg"
 import img_22th_AOI from "../img/News/22th_AOI.jpg"
+import img_20221130_NCCUnews from "../img/News/20221130_NCCUnews.jpg"
 
 // import Zmage from "react-zmage";
 import 'antd/dist/antd.css';
@@ -51,11 +52,30 @@ const News = () => {
         
         {/*  新增資訊由此開始  */}
         <div className="Item">
+          <h1>2022/11/30</h1>
+          <Image  src={img_20221130_NCCUnews} alt="img_20221130_NCCUnews"/>
+          <h3>
+            <br />
+            本實驗室陳士煜教師帶領學生團隊研發 <span className = "red">「高光譜雞蛋品質檢測 - 以瑕疵與新鮮度為例」</span>
+            <br/>
+            並獲 <span className="red">政大大學報</span> 報導 <a
+              target="_blank" rel="noopener noreferrer"
+              href="https://unews.nccu.edu.tw/unews/%EF%BC%88f%EF%BC%89%E9%9B%B2%E7%A7%91%E5%A4%A7%EF%BC%BF%E9%9B%9E%E8%9B%8B%E5%93%81%E8%B3%AA%E6%AA%A2%E6%B8%AC%EF%BC%88%E9%AB%98%E5%85%89%E8%AD%9C%E3%80%81%E7%91%95%E7%96%B5%E8%9B%8B%E3%80%81%E6%96%B0/"
+              class ="red"
+            >
+              <u>
+              揪出壞「蛋」！高光譜檢測雞蛋品質提升辨識效率
+              </u>
+            </a>
+          </h3>
+        </div>
+
+        <div className="Item">
           <h1>2022/09/29</h1>
           <Image  src={img_22th_AOI} alt="img_22th_AOI"/>
           <h3>
             <br />
-            本實驗室陳士煜獲 <span className = "red">22屆 AOI論壇與展覽</span>活動邀請
+            本實驗室陳士煜教師獲 <span className = "red">22屆 AOI論壇與展覽</span>活動邀請
             展示 <span className="red"> 高光譜智慧農業於食品安全應用 - 以雞蛋為例 </span>
             <br/>
             並獲 <span className="red">經濟日報</span> 報導 <a
@@ -75,7 +95,7 @@ const News = () => {
           <Image  src={ima_summerIRIS} alt="2022講座邀請"/>
           <h3>
             <br />
-            本實驗室陳士煜獲 <span className = "red">智慧辨識技術講座 暨 交流會議</span>活動邀請擔任 講師 一職
+            本實驗室陳士煜教師獲 <span className = "red">智慧辨識技術講座 暨 交流會議</span>活動邀請擔任 講師 一職
             <br/>
             <br/>
           </h3>
@@ -86,7 +106,7 @@ const News = () => {
           <Image  src={img_PT202205} alt="2021新聞專訪"/>
           <h3>
             <br />
-            本實驗室陳士煜獲 <span className = "red">工業區人才培訓課程</span> 活動邀請擔任 講師 一職
+            本實驗室陳士煜教師獲 <span className = "red">工業區人才培訓課程</span> 活動邀請擔任 講師 一職
             <br/>
             <br/>
           </h3>
@@ -97,7 +117,7 @@ const News = () => {
           <Image  src={img_202112NTR} alt="2021新聞專訪"/>
           <h3>
             <br />
-            本實驗室陳士煜獲 <span className = "red">經濟日報</span> 專訪
+            本實驗室陳士煜教師獲 <span className = "red">經濟日報</span> 專訪
             <br/>
             <span className = "red" href="https://money.udn.com/money/story/5639/5978664?utm_source=ednlinemobile&utm_medium=share">
             <a
