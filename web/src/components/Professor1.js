@@ -150,10 +150,7 @@ const Journal_Art_cols = [
   render : (record) =>{
     return (
       <span>
-        <b>
-        {record.blod}  
-        </b>
-        {record.content1}{record.content2}
+        {record.content1}<b>{record.blod}</b>{record.content2}
       </span>
     )
   }
@@ -239,9 +236,9 @@ const Education_columns = [
   const data = [
     {
       Num: "1",
-      blod: "Shih-Yu Chen;",
-      content1: "",
-      content2: "Chih-Chung Hsu, Li-Wei Kang , I-Shan Wang, Ching-Hao Hong & Chuan-Yu Chang ",
+      blod: "Shih-Yu Chen, ",
+      content1: "Chih-Chung Hsu, Li-Wei Kang, ",
+      content2: "I-Shan Wang, Ching-Hao Hong, Chuan-Yu Chang.",
   
       link: "https://link.springer.com/article/10.1007/s11042-022-13742-x",
       title:
@@ -252,9 +249,9 @@ const Education_columns = [
 
     {
       Num: "2",
-      blod: "Shih-Yu Chen;",
+      blod: "Shih-Yu Chen, ",
       content1: "",
-      content2: "Ming-Feng Chiu, and Xue-Wei Zou ",
+      content2: "Ming-Feng Chiu, Xue-Wei Zou.",
   
       link: "https://www.sciencedirect.com/science/article/pii/S0168169922002873?dgcid=author",
       title:
@@ -264,9 +261,9 @@ const Education_columns = [
     },
     {
       Num: "3",
-      blod: "Shih-Yu Chen;",
+      blod: "Shih-Yu Chen, ",
       content1: "",
-      content2: " Y. -C. Cheng, W. -L. Yang and M. -Y. Wang, ",
+      content2: "Yu-Chih Cheng, Wen-Long Yang, Mei-Yun Wang.",
   
       link: "https://ieeexplore.ieee.org/document/9536578",
       title:
@@ -276,9 +273,9 @@ const Education_columns = [
     },
     {
       Num: "4",
-      blod: "Chen, Shih-Yu;",
+      blod: "Shih-Yu Chen, ",
       content1: "",
-      content2: " Lin, Chinsu; Li, Guan-Jie; Hsu, Yu-Chun; Liu, Keng-Hao. 2021.",
+      content2: "Chinsu Lin, Guan-Jie Li, Yu-Chun Hsu, Keng-Hao Liu.",
   
       link: "https://www.mdpi.com/1424-8220/21/6/2077",
       title:
@@ -288,9 +285,9 @@ const Education_columns = [
     },
     {
       Num: "5",
-      blod: "Shih-Yu Chen,",
+      blod: "Shih-Yu Chen, ",
       content1: "",
-      content2: " Chuan-Yu Chang, Cheng-Syue OU and Chou-Tien Lien (2020, Jul). ",
+      content2: "Chuan-Yu Chang, Cheng-Syue Ou, Chou-Tien Lien",
       link: "https://www.mdpi.com/2072-4292/12/15/2348/htm",
       title:
         "Detection of Insect Damage in Green Coffee Beans Using VIS-NIR Hyperspectral Imaging.",
@@ -299,10 +296,9 @@ const Education_columns = [
     },
     {
       Num: "6",
-      blod: "SY Chen,",
+      blod: "SY Chen, ",
       content1: "William C Chiu, DB Powers, JM Hirshon, SA Shackelford, PF Hu, ",
-      content2:
-        " HH Chen, CF Mackenzie, CH Miller, JJ DuBose, C Carroll, R Fang, TM Scalea (2020, May). ",
+      content2: "HH Chen, CF Mackenzie, CH Miller, JJ DuBose, C Carroll, R Fang, TM Scalea.",
       link:
         "https://militaryhealth.bmj.com/content/early/2020/05/28/bmjmilitary-2020-001483",
       title:
@@ -311,9 +307,9 @@ const Education_columns = [
     },
     {
       Num: "7",
-      blod: "Shih-Yu Chen,",
+      blod: "Shih-Yu Chen, ",
       content1: "",
-      content2: " Chinsu Lin, Shang-Ju Chuang and Zhe-Yuan Kao (2019, May). ",
+      content2: "Chinsu Lin, Shang-Ju Chuang, Zhe-Yuan Kao.",
       link: "https://www.mdpi.com/2072-4292/11/9/1081/htm",
       title:
         "Weighted Background Suppression Target Detection Using Sparse Image Enhancement Technique for Newly Grown Tree Leaves.",
@@ -322,9 +318,9 @@ const Education_columns = [
     },
     {
       Num: "8",
-      blod: "Shih-Yu Chen,",
+      blod: "Shih-Yu Chen, ",
       content1: "Chinsu Lin, ",
-      content2: " Chia-Chun Chen, Chia-Huei Tai (2018, Aug). ",
+      content2: "Chia-Chun Chen, Chia-Huei Tai.",
       link:
         "https://drive.google.com/file/d/1FR2CWLYyi2806r_gRDAdyZeBELCqMShe/view",
       title:
@@ -334,9 +330,9 @@ const Education_columns = [
     },
     {
       Num: "9",
-      blod: "Shih-Yu Chen,",
+      blod: "Shih-Yu Chen, ",
       content1: "Keng-Hao Liu, ",
-      content2: " Hung-Chang Chien, Meng-Han Lu (2018, Feb). ",
+      content2: " Hung-Chang Chien, Meng-Han Lu.",
       link:
         "https://drive.google.com/file/d/1RuKAvkz_pSek-XiJoYsmeVRRiSgbc-Ef/view",
       title:
@@ -346,8 +342,9 @@ const Education_columns = [
     },
     {
       Num: "10",
-      blod: "Shih-Yu Chen,",
-      content2: " Chinsu Lin, Chia-Hui Tai, Shang-Ju Chuang (2018, Jan). ",
+      blod: "Shih-Yu Chen, ",
+      content1: "",
+      content2: " Chinsu Lin, Chia-Hui Tai, Shang-Ju Chuang.",
       link:
         "https://drive.google.com/file/d/1WfJlRQca0_qUX7WiyLbT-T45fLyFHHtp/view",
       title:
@@ -357,9 +354,9 @@ const Education_columns = [
     },
     {
       Num: "11",
-      blod: "Shih-Yu Chen;",
-      content1: "Chein-I Chang; ",
-      content2: " Hsiao-Chi Li; Hsian-Min Chen; Chia-Hsien Wen (2016, Sep). ",
+      blod: "Shih-Yu Chen, ",
+      content1: "Chein-I Chang, ",
+      content2: " Hsiao-Chi Li, Hsian-Min Chen, Chia-Hsien Wen.",
       link: "https://drive.google.com/file/d/0B0YDE38rJWb5ZDB1YTJjLXNJV2c/view",
       title:
         "Comparative Study and Analysis Among ATGP, VCA, and SGA for Finding Endmembers in Hyperspectral Imagery.",
@@ -370,7 +367,7 @@ const Education_columns = [
       Num: "12",
       blod: "Shih-Yu Chen, ",
       content1: "Chein-I Chang, Wei Xiong, ",
-      content2: " (2016, May). ",
+      content2: "",
       link:
         "https://www.inderscienceonline.com/doi/abs/10.1504/IJCSE.2016.076294",
       title:
@@ -380,9 +377,9 @@ const Education_columns = [
     },
     {
       Num: "13",
-      blod: "Shih-Yu Chen ",
-      content1: "Chein-I Chang, Cheng Gao, and ",
-      content2: " (2015, Sep). ",
+      blod: "Shih-Yu Chen. ",
+      content1: "Chein-I Chang, Cheng Gao, ",
+      content2: "",
       link: "https://drive.google.com/file/d/0B0YDE38rJWb5a2s5ZVFDX2tKeVk/view",
       title:
         "Recursive Automatic Target Generation Process in Subpixel Detection.",
@@ -394,7 +391,7 @@ const Education_columns = [
       blod: "Shih-Yu Chen, ",
       content1: "Yaw-Jiunn Chiou, Clayton Chi-Chang Chen, ",
       content2:
-        " Hsian-Min Chen, Jyh-Wen Chai, Yen-Chieh Ouyang, Wu-Chung Su, Ching-Wen Yang, San-Kan Lee & Chein-I Chang (2015, Aug). ",
+        " Hsian-Min Chen, Jyh-Wen Chai, Yen-Chieh Ouyang, Wu-Chung Su, Ching-Wen Yang, San-Kan Lee, Chein-I Chang.",
       link: "https://www.tandfonline.com/doi/abs/10.1080/02533839.2015.1056552",
       title:
         "Magnetic resonance brain tissue classification and volume calculation.",
@@ -403,9 +400,9 @@ const Education_columns = [
     },
     {
       Num: "15",
-      blod: "Shih-Yu Chen ",
-      content1: "Chein-I Chang, Yulei Wang and ",
-      content2: " (2015, Jul). ",
+      blod: "Shih-Yu Chen. ",
+      content1: "Chein-I Chang, Yulei Wang, ",
+      content2: "",
       link: "https://ieeexplore.ieee.org/document/7109108",
       title: "Anomaly Detection Using Causal Sliding Windows.",
       content3:
@@ -415,7 +412,7 @@ const Education_columns = [
       Num: "16",
       blod: "Shih-Yu Chen, ",
       content1: "Meiping Song, ",
-      content2: " Hsiao-Chi Li, Hsian-Min Chen and Chein-I Chang (2015, Jun). ",
+      content2: " Hsiao-Chi Li, Hsian-Min Chen, Chein-I Chang. ",
       link: "https://drive.google.com/file/d/0B0YDE38rJWb5ZlY4X1hJR0FmcGc/view",
       title: "Finding Virtual Signatures for Linear Spectral Mixture Analysis.",
       content3:
@@ -425,7 +422,7 @@ const Education_columns = [
       Num: "17",
       blod: "Shih-Yu Chen, ",
       content1: "Chein-I. Chang, Robert C. Schultz, Marissa C. Hobbs, ",
-      content2: " Yulei Wang, and Chunhong Liu (2015, Mar). ",
+      content2: " Yulei Wang, Chunhong Liu. ",
       link: "https://drive.google.com/file/d/0B0YDE38rJWb5Y0RCTTM1dTFidE0/view",
       title:
         "Progressive Band Processing of Constrained Energy Minimization for Subpixel Detection.",
@@ -436,7 +433,7 @@ const Education_columns = [
       Num: "18",
       blod: "Shih-Yu Chen, ",
       content1: "Colin F Mackenzie, Yulei Wang, Peter F Hu, ",
-      content2: " Hegang H (2014, Jun). ",
+      content2: " Hegang H Chen. ",
       link:
         "https://journals.lww.com/jtrauma/pages/articleviewer.aspx?year=2014&issue=06000&article=00007&type=abstract",
       title:
@@ -446,10 +443,10 @@ const Education_columns = [
     },
     {
       Num: "19",
-      blod: "Shih-Yu Chen,",
+      blod: "Shih-Yu Chen, ",
       content1: "",
       content2:
-        " Yulei Wang, Chao-Cheng Wu, Chunhong Liu and Chein-I Chang (2014, Apr). ",
+        " Yulei Wang, Chao-Cheng Wu, Chunhong Liu and Chein-I Chang. ",
       link: "https://drive.google.com/file/d/0B0YDE38rJWb5WlNLc2VWV0wyTW8/view",
       title:
         "Real Time Causal Processing of Anomaly Detection for Hyperspectral Imagery.",
@@ -458,9 +455,9 @@ const Education_columns = [
     },
     {
       Num: "20",
-      blod: "Shih-Yu Chen,",
+      blod: "Shih-Yu Chen, ",
       content1: "Hsian-Min Chen, Chinsu Lin, ",
-      content2: " Yen-Chieh Ouyang, Chein-I Chang (2013, Aug). ",
+      content2: "Chia-Hsien Wen, Clayton Chi-Chang Chen, Yen-Chieh Ouyang and Chein-I Chang. ",
       link: "https://drive.google.com/file/d/0B0YDE38rJWb5bzhvcVFaTXpQLUE/view",
       title:
         "PPI SVM-Iterative FLDA Approach to Unsupervised Multispectral Image Classification.",
@@ -469,10 +466,9 @@ const Education_columns = [
     },
     {
       Num: "21",
-      blod: "Shih-Yu Chen,",
+      blod: "Shih-Yu Chen, ",
       content1: "Clayton Chi-Chang Chen, Englin Wong, Hsian-Min Chen, ",
-      content2:
-        " Jyh-Wen Chai, Ching Wen Yang, San Kan Lee, Yong Kie Wong, Chein-I Chang (2013, Apr). ",
+      content2: "Jyh-Wen Chai, Ching Wen Yang, San Kan Lee, Yong Kie Wong, Chein-I Chang. ",
       link: "https://www.inderscience.com/info/inarticle.php?artid=53090",
       title:
         "Intra-pixel multispectral processing of magnetic resonance brain images for tissue characterization.",
