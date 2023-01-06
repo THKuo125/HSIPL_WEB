@@ -33,6 +33,8 @@ import img_KaoGold from "../img/Honor/KaoDesignGold.jpeg"
 import img_HKDGold from "../img/Honor/HonKongDGold.jpg"
 import img_2022calculate from "../img/Honor/2022泛珠三角計算機作品三等.jpg"
 import img_2022PonHo from "../img/Honor/PonHo_2022.jpg"
+import img_2022_SIIFsilver from "../img/Honor/2022_SIIFsilver.jpg"
+
 
 
 // import Zmage from "react-zmage";
@@ -140,6 +142,22 @@ const Honer = () => {
           nextArrow={<Arrow type="next" />}
           prevArrow={<Arrow type="prev" />}
         >
+
+          <div className="pic_hon" id="secondpic">
+            <div className="all">
+            <h4>2022​-11/16~11/19</h4>
+            <Image className="column_Pic" src={img_2022_SIIFsilver} alt="img_2022_SIIFsilver"/>
+            <div className="detail_hon">
+              
+              <h3>
+              本實驗室團隊研發<span  className = "red"><br/>「高光譜雞蛋品質檢測-以瑕疵與新鮮度為例」</span>
+              <br/>榮獲<span className = "red" > 韓國首爾發明展 銀牌 </span>
+              </h3>
+              
+            </div>
+            </div>
+          </div>
+
           <div className="pic_hon" id="secondpic">
             <div className="all">
             <h4>2022​-06/01</h4>
@@ -147,17 +165,13 @@ const Honer = () => {
             <div className="detail_hon">
               
               <h3>
-              本實驗室團隊參與 <span  className = "red">第二十屆離島資訊技術與應用研討會</span>  
-              之 
-              <span className = "red" >使用高光譜圖像自動檢測雞蛋缺陷</span>
-               獲得佳作
-
+              本實驗室團隊參與<span  className = "red"> 第二十屆離島資訊技術與應用研討會 </span>
+              之<span className = "red" > 使用高光譜圖像自動檢測雞蛋缺陷 </span>獲得佳作
               </h3>
               
             </div>
             </div>
           </div>
-
 
           <div className="pic_hon" id="secondpic">
             <div className="all">
@@ -166,16 +180,13 @@ const Honer = () => {
             <div className="detail_hon">
               
               <h3>
-              本實驗室團隊 <span  className = "red">高光譜咖啡豆即時自動化瑕疵檢測系統</span>  榮獲
-
-                <span className = "red" >2021 泛珠三角大學生計算機作品賽總決賽 三等獎</span>
+              本實驗室團隊<span  className = "red"> 高光譜咖啡豆即時自動化瑕疵檢測系統 </span>榮獲
+              <span className = "red" > 2021 泛珠三角大學生計算機作品賽總決賽 三等獎</span>
               </h3>
               
             </div>
             </div>
           </div>
-
-
 
           <div className="pic_hon" id="secondpic">
             <div className="all">
@@ -185,8 +196,7 @@ const Honer = () => {
               
               <h3>
               本實驗室團隊 與 五鈴光學股份有限公司 合作開發 <span  className = "red">即時生咖啡豆瑕疵檢測機台</span>  榮獲
-
-                <span className = "red" >2021 香港國際發明展 金牌</span>
+                <span className = "red" > 2021 香港國際發明展 金牌</span>
                 <br />
                 <a
                     target="_blank" rel="noopener noreferrer"
@@ -218,7 +228,7 @@ const Honer = () => {
             <div className="detail_hon">
               <h3>
               本實驗室團隊 與 五鈴光學股份有限公司 合作開發 <span  className = "red">即時生咖啡豆瑕疵檢測機台</span>  榮獲
-              <span className = "red">2021 高雄國際發明暨設計展 金牌</span>
+              <span className = "red"> 2021 高雄國際發明暨設計展 金牌</span>
                 <br /> 
 
               </h3>
