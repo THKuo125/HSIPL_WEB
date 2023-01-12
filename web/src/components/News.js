@@ -15,7 +15,7 @@ import img_202112NTR from "../img/News/202112NPR1.jpg"
 import img_PT202205 from "../img/News/Personnel_training202205.jpg"
 import ima_summerIRIS from "../img/News/20220803智慧辨識技術講座暨交流會議.jpg"
 import img_22th_AOI from "../img/News/22th_AOI.jpg"
-import img_20221130_NCCUnews from "../img/News/20221130_NCCUnews.jpg"
+import img_2022_SIIFsilver from "../img/News/2022_SIIFsilver.jpg"
 
 // import Zmage from "react-zmage";
 import 'antd/dist/antd.css';
@@ -53,7 +53,7 @@ const News = () => {
         {/*  新增資訊由此開始  */}
         <div className="Item">
           <h1>2022/11/30</h1>
-          <Image  src={img_20221130_NCCUnews} alt="img_20221130_NCCUnews"/>
+          <Image  src={img_2022_SIIFsilver} alt="img_2022_SIIFsilver"/>
           <h3>
             <br />
             本實驗室陳士煜教師帶領學生團隊研發 <span className = "red">「高光譜雞蛋品質檢測 - 以瑕疵與新鮮度為例」</span>
