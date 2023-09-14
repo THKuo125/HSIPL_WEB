@@ -142,6 +142,9 @@ const Professor1 = () => {
 };
 
 const Journal_Art_cols = [
+  {title:"Year",
+  dataIndex:"Year"
+  },
   {title:"Num",
   dataIndex:"Num"
   },
@@ -235,6 +238,7 @@ const Education_columns = [
   
   const data = [
     {
+      Year: "2023",
       Num: "1",
       blod: "Shih-Yu Chen, ",
       content1: "A. Manju, R. Kaladevi, Shanmugasundaram Hariharan, ",
@@ -248,6 +252,7 @@ const Education_columns = [
     },
 
     {
+      Year: "",
       Num: "2",
       blod: "Shih-Yu Chen, ",
       content1: "A. Manju, A. Revathi, M. Arivukarasi, S. Hariharan, V. Umarani, ",
@@ -261,6 +266,7 @@ const Education_columns = [
     },
     
     {
+      Year: "",
       Num: "3",
       blod: "Shih-Yu Chen, ",
       content1: "",
@@ -274,7 +280,8 @@ const Education_columns = [
     },
 
     {
-      Num: "4",
+      Year: "2022",
+      Num: "1",
       blod: "Shih-Yu Chen, ",
       content1: "Chih-Chung Hsu, Li-Wei Kang, ",
       content2: "I-Shan Wang, Ching-Hao Hong, Chuan-Yu Chang.",
@@ -287,7 +294,8 @@ const Education_columns = [
     },
 
     {
-      Num: "5",
+      Year: "",
+      Num: "2",
       blod: "Shih-Yu Chen, ",
       content1: "",
       content2: "Ming-Feng Chiu, Xue-Wei Zou.",
@@ -299,7 +307,8 @@ const Education_columns = [
         " Computers and Electronics in Agriculture, vol. 197, p.106970, June 2022 (SCI, IF = 5.565, AGRICULTURE, MULTIDISCIPLINARY, Rank= 2/57=3.5%, Q1) 本人為第一作者、通訊作者",
     },
     {
-      Num: "6",
+      Year: "2021",
+      Num: "1",
       blod: "Shih-Yu Chen, ",
       content1: "",
       content2: "Yu-Chih Cheng, Wen-Long Yang, Mei-Yun Wang.",
@@ -311,7 +320,8 @@ const Education_columns = [
         ", in IEEE Access, vol. 9, pp. 127685-127702, 2021, doi: 10.1109/ACCESS.2021.3112133. ",
     },
     {
-      Num: "7",
+      Year: "",
+      Num: "2",
       blod: "Shih-Yu Chen, ",
       content1: "",
       content2: "Chinsu Lin, Guan-Jie Li, Yu-Chun Hsu, Keng-Hao Liu.",
@@ -323,7 +333,8 @@ const Education_columns = [
         " Sensors 21, no. 6: 2077. ",
     },
     {
-      Num: "8",
+      Year: "2020",
+      Num: "1",
       blod: "Shih-Yu Chen, ",
       content1: "",
       content2: "Chuan-Yu Chang, Cheng-Syue Ou, Chou-Tien Lien",
@@ -334,7 +345,8 @@ const Education_columns = [
         " Remote sensing, 12(15), 2348. (SCI, IF = 4.509, Ranking = 9/30 = 30%,  Remote sensing). 本人為第一作者、通訊作者. ",
     },
     {
-      Num: "9",
+      Year: "",
+      Num: "2",
       blod: "SY Chen, ",
       content1: "William C Chiu, DB Powers, JM Hirshon, SA Shackelford, PF Hu, ",
       content2: "HH Chen, CF Mackenzie, CH Miller, JJ DuBose, C Carroll, R Fang, TM Scalea.",
@@ -345,7 +357,8 @@ const Education_columns = [
       content3: " BMJ Mil Health. (SCI, IF = 0.994).",
     },
     {
-      Num: "10",
+      Year: "2019",
+      Num: "1",
       blod: "Shih-Yu Chen, ",
       content1: "",
       content2: "Chinsu Lin, Shang-Ju Chuang, Zhe-Yuan Kao.",
@@ -356,54 +369,59 @@ const Education_columns = [
         " Remote Sens., 11(9), 1081. (SCI, IF = 4.5, Ranking = 7/29 = 24.13%, Remote Sensing). 本人為第一作者. ",
     },
     {
-      Num: "11",
+      Year: "2018",
+      Num: "1",
       blod: "Shih-Yu Chen, ",
       content1: "Chinsu Lin, ",
       content2: "Chia-Chun Chen, Chia-Huei Tai.",
       link:
-        "https://drive.google.com/file/d/1FR2CWLYyi2806r_gRDAdyZeBELCqMShe/view",
+        "https://www.sciencedirect.com/science/article/pii/S0924271618301552",
       title:
         "Detecting Newly Grown Tree Leaves from Unmanned-Aerial-Vehicle Images using Hyperspectral Target Detection Techniques.",
       content3:
         " ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING. (SCI, IF = 7.31, Ranking = 1/29 = 3.4%, GEOCHEMISTRY & GEOPHYSICS). 本人為通訊作者.",
     },
     {
-      Num: "12",
+      Year: "",
+      Num: "2",
       blod: "Shih-Yu Chen, ",
       content1: "Keng-Hao Liu, ",
       content2: " Hung-Chang Chien, Meng-Han Lu.",
       link:
-        "https://drive.google.com/file/d/1RuKAvkz_pSek-XiJoYsmeVRRiSgbc-Ef/view",
+        "https://www.mdpi.com/2072-4292/10/3/367",
       title:
         "Progressive Sample Processing of Band Selection for Hyperspectral Image Transmission.",
       content3:
         " Remote Sensing, 10(3), 367. (SCI, IF = 4.5, Ranking = 7/29 = 24.13%, Remote Sensing).",
     },
     {
-      Num: "13",
+      Year: "",
+      Num: "3",
       blod: "Shih-Yu Chen, ",
       content1: "",
       content2: " Chinsu Lin, Chia-Hui Tai, Shang-Ju Chuang.",
       link:
-        "https://drive.google.com/file/d/1WfJlRQca0_qUX7WiyLbT-T45fLyFHHtp/view",
+        "https://www.mdpi.com/2072-4292/10/1/96",
       title:
         "Adaptive Window-Based Constrained Energy Minimization for Detection of Newly Grown Tree Leaves.",
       content3:
         " Remote Sensing, 10(1), 96. (SCI, IF = 4.5, Ranking = 7/29 = 24.13%, Remote Sensing). 本人為第一作者.",
     },
     {
-      Num: "14",
+      Year: "2016",
+      Num: "1",
       blod: "Shih-Yu Chen, ",
       content1: "Chein-I Chang, ",
       content2: " Hsiao-Chi Li, Hsian-Min Chen, Chia-Hsien Wen.",
-      link: "https://drive.google.com/file/d/0B0YDE38rJWb5ZDB1YTJjLXNJV2c/view",
+      link: "https://ieeexplore.ieee.org/document/7490352",
       title:
         "Comparative Study and Analysis Among ATGP, VCA, and SGA for Finding Endmembers in Hyperspectral Imagery.",
       content3:
         " IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 9(9), 4280-4306. (SCI, IF = 3.82, Ranking = 6/26 = 23.07%, ENGINEERING, ELECTRICAL & ELECTRONIC). 本人為通訊作者.",
     },
     {
-      Num: "15",
+      Year: "",
+      Num: "2",
       blod: "Shih-Yu Chen, ",
       content1: "Chein-I Chang, Wei Xiong, ",
       content2: "",
@@ -415,22 +433,23 @@ const Education_columns = [
         " International Journal of Computational Science and Engineering, Vol. 12, Nos. 2/3, pp. 186-191. (EI). 本人為通訊作者.",
     },
     {
-      Num: "16",
+      Year: "2015",
+      Num: "1",
       blod: "Shih-Yu Chen. ",
       content1: "Chein-I Chang, Cheng Gao, ",
       content2: "",
-      link: "https://drive.google.com/file/d/0B0YDE38rJWb5a2s5ZVFDX2tKeVk/view",
+      link: "https://ieeexplore.ieee.org/document/7137619",
       title:
         "Recursive Automatic Target Generation Process in Subpixel Detection.",
       content3:
         " IEEE Geoscience and Remote Sensing Letters, 12(9), 1848 - 1852. (SCI, 67/265, ENGINEERING, ELECTRICAL & ELECTRONIC). 本人為通訊作者.",
     },
     {
-      Num: "17",
+      Year: "",
+      Num: "2",
       blod: "Shih-Yu Chen, ",
       content1: "Yaw-Jiunn Chiou, Clayton Chi-Chang Chen, ",
-      content2:
-        " Hsian-Min Chen, Jyh-Wen Chai, Yen-Chieh Ouyang, Wu-Chung Su, Ching-Wen Yang, San-Kan Lee, Chein-I Chang.",
+      content2: " Hsian-Min Chen, Jyh-Wen Chai, Yen-Chieh Ouyang, Wu-Chung Su, Ching-Wen Yang, San-Kan Lee, Chein-I Chang.",
       link: "https://www.tandfonline.com/doi/abs/10.1080/02533839.2015.1056552",
       title:
         "Magnetic resonance brain tissue classification and volume calculation.",
@@ -438,7 +457,8 @@ const Education_columns = [
         " Journal of the Chinese Institute of Engineers.(IF = 0.395, Ranking = 76/85 = 89.41%).",
     },
     {
-      Num: "18",
+      Year: "",
+      Num: "3",
       blod: "Shih-Yu Chen. ",
       content1: "Chein-I Chang, Yulei Wang, ",
       content2: "",
@@ -448,28 +468,31 @@ const Education_columns = [
         " IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 8(7), 3260 - 3270. (SCI, IF = 3.82, Ranking = 6/26 = 23.07%, ENGINEERING, ELECTRICAL & ELECTRONIC). 本人為通訊作者.",
     },
     {
-      Num: "19",
+      Year: "",
+      Num: "4",
       blod: "Shih-Yu Chen, ",
       content1: "Meiping Song, ",
       content2: " Hsiao-Chi Li, Hsian-Min Chen, Chein-I Chang. ",
-      link: "https://drive.google.com/file/d/0B0YDE38rJWb5ZlY4X1hJR0FmcGc/view",
+      link: "https://ieeexplore.ieee.org/document/7154408",
       title: "Finding Virtual Signatures for Linear Spectral Mixture Analysis.",
       content3:
         " IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 8(6), 2704 - 2719. (SCI, IF = 3.82, Ranking = 6/26 = 23.07%, ENGINEERING, ELECTRICAL & ELECTRONIC).",
     },
     {
-      Num: "20",
+      Year: "2014",
+      Num: "1",
       blod: "Shih-Yu Chen, ",
       content1: "Chein-I. Chang, Robert C. Schultz, Marissa C. Hobbs, ",
       content2: " Yulei Wang, Chunhong Liu. ",
-      link: "https://drive.google.com/file/d/0B0YDE38rJWb5Y0RCTTM1dTFidE0/view",
+      link: "https://ieeexplore.ieee.org/document/6894584",
       title:
         "Progressive Band Processing of Constrained Energy Minimization for Subpixel Detection.",
       content3:
         " IEEE Transactions on Geoscience and Remote sensing, 53(3),1626 - 1637. (SCI, IF = 5.85, Ranking = 4/84=4.07%).",
     },
     {
-      Num: "21",
+      Year: "",
+      Num: "2",
       blod: "Shih-Yu Chen, ",
       content1: "Colin F Mackenzie, Yulei Wang, Peter F Hu, ",
       content2: " Hegang H Chen. ",
@@ -481,30 +504,21 @@ const Education_columns = [
         " Journal of Trauma and Acute Care Surgery, Vol. 76, no. 6, pp.1379-1385. (SCI, IF = 3.4, Ranking = 33/197 = 16.75%, Surgery).",
     },
     {
-      Num: "22",
+      Year: "",
+      Num: "3",
       blod: "Shih-Yu Chen, ",
       content1: "",
       content2:
         " Yulei Wang, Chao-Cheng Wu, Chunhong Liu and Chein-I Chang. ",
-      link: "https://drive.google.com/file/d/0B0YDE38rJWb5WlNLc2VWV0wyTW8/view",
+      link: "https://ieeexplore.ieee.org/abstract/document/6850171",
       title:
         "Real Time Causal Processing of Anomaly Detection for Hyperspectral Imagery.",
       content3:
         " IEEE Transactions on Aerospace and Electronic Systems, vol.52, no.2, pp.1511-1534. (SCI, IF = 3.67, Ranking = 4/31 = 12.90.%, AEROSPACE). 本人為第一作者.",
     },
     {
-      Num: "23",
-      blod: "Shih-Yu Chen, ",
-      content1: "Hsian-Min Chen, Chinsu Lin, ",
-      content2: "Chia-Hsien Wen, Clayton Chi-Chang Chen, Yen-Chieh Ouyang and Chein-I Chang. ",
-      link: "https://drive.google.com/file/d/0B0YDE38rJWb5bzhvcVFaTXpQLUE/view",
-      title:
-        "PPI SVM-Iterative FLDA Approach to Unsupervised Multispectral Image Classification.",
-      content3:
-        " IEEE Journal of Selected Topics in Applied Earth Observation sand Remote Sensing, vol. 6, no. 4, pp. 1834-1842. (SCI, IF = 3.82, Ranking = 6/26 = 23.07%, ENGINEERING, ELECTRICAL & ELECTRONIC).",
-    },
-    {
-      Num: "24",
+      Year: "2013",
+      Num: "1",
       blod: "Shih-Yu Chen, ",
       content1: "Clayton Chi-Chang Chen, Englin Wong, Hsian-Min Chen, ",
       content2: "Jyh-Wen Chai, Ching Wen Yang, San Kan Lee, Yong Kie Wong, Chein-I Chang. ",
@@ -514,6 +528,19 @@ const Education_columns = [
       content3:
         " International Journal of Computational Science and Engineering, vol. 8, no. 2, pp. 87-110.",
     },
+    {
+      Year: "2012",
+      Num: "1",
+      blod: "Shih-Yu Chen, ",
+      content1: "Hsian-Min Chen, Chinsu Lin, ",
+      content2: "Chia-Hsien Wen, Clayton Chi-Chang Chen, Yen-Chieh Ouyang and Chein-I Chang. ",
+      link: "https://ieeexplore.ieee.org/document/6374271",
+      title:
+        "PPI SVM-Iterative FLDA Approach to Unsupervised Multispectral Image Classification.",
+      content3:
+        " IEEE Journal of Selected Topics in Applied Earth Observation sand Remote Sensing, vol. 6, no. 4, pp. 1834-1842. (SCI, IF = 3.82, Ranking = 6/26 = 23.07%, ENGINEERING, ELECTRICAL & ELECTRONIC).",
+    },
+    
   ];
   
 
