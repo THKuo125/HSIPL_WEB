@@ -217,12 +217,12 @@ const Education_columns = [
       {
           time: "2018 ~ present",
           employer: "National Yunlin University of Science and Technology",
-          position: "Assistant Professor",
+          position: "Associate Professor",
         },
       {
         time: "2014 ~ 2018",
         employer: "National Yunlin University of Science and Technology",
-        position: "Assistant Professor",
+        position: "Associate Professor",
       },
       {
         time: "2011 ~ 2014",
@@ -541,9 +541,11 @@ const Education_columns = [
         " IEEE Journal of Selected Topics in Applied Earth Observation sand Remote Sensing, vol. 6, no. 4, pp. 1834-1842. (SCI, IF = 3.82, Ranking = 6/26 = 23.07%, ENGINEERING, ELECTRICAL & ELECTRONIC).",
     },
     
-  ];
-  
+];
 
-
+// Journal Articles Number 遞增
+for (let i in data) {
+    data[i].Num = Number(i) + 1;
+}
 
 export default Professor1;

@@ -27,148 +27,157 @@ import life21 from "../img/Photos of life/2022新春尾牙.jpg";
 import life22 from "../img/Photos of life/2022口試晚餐.jpg";
 import life23 from "../img/Photos of life/2022.09.22聚餐.jpg";
 import life24 from "../img/Photos of life/2022.12.01小蒙牛聚餐.jpg";
-import life25 from "../img/Photos of life/2022.12.21老師生日.jpg"
+import life25 from "../img/Photos of life/2022.12.21老師生日.jpg";
 import life26 from "../img/Photos of life/2023.01.18尾牙.jpg";
 import life27 from "../img/Photos of life/2023.05聚餐.jpg";
 import life28 from "../img/Photos of life/2023畢業照.jpg";
 import life29 from "../img/Photos of life/2023.08聚餐.jpg";
+import life30 from "../img/Photos of life/2023.09聚餐.jpg";
+import life31 from "../img/Photos of life/2023.10聚餐.jpg";
 
 import "antd/dist/antd.css";
 
 import Slider from "react-slick";
 
 export const About_HSIPL = () => {
-  const settings_slider = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
-  return (
-    <>
-      <div className="all_life">
-        <Slider className="life_Slider" autoplay {...settings_slider}>
-          <div>
-            <img id="life" src={life29} alt="life" />
-          </div>
-          
-          <div>
-            <img id="life" src={life28} alt="life" />
-          </div>
+    const settings_slider = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    };
+    return (
+        <>
+            <div className="all_life">
+                <Slider className="life_Slider" autoplay {...settings_slider}>
+                    <div>
+                        <img id="life" src={life31} alt="life" />
+                    </div>
 
-          <div>
-            <img id="life" src={life27} alt="life" />
-          </div>
+                    <div>
+                        <img id="life" src={life30} alt="life" />
+                    </div>
 
-          <div>
-            <img id="life" src={life26} alt="life" />
-          </div>
+                    <div>
+                        <img id="life" src={life29} alt="life" />
+                    </div>
 
-          <div>
-            <img id="life" src={life25} alt="life" />
-          </div>
+                    <div>
+                        <img id="life" src={life28} alt="life" />
+                    </div>
 
-          <div>
-            <img id="life" src={life24} alt="life" />
-          </div>
+                    <div>
+                        <img id="life" src={life27} alt="life" />
+                    </div>
 
-          <div>
-            <img id="life" src={life23} alt="life" />
-          </div>
+                    <div>
+                        <img id="life" src={life26} alt="life" />
+                    </div>
 
-          <div>
-            <img id="life" src={life22} alt="life" />
-          </div>
+                    <div>
+                        <img id="life" src={life25} alt="life" />
+                    </div>
 
-          <div>
-            <img id="life" src={life21} alt="life" />
-          </div>
+                    <div>
+                        <img id="life" src={life24} alt="life" />
+                    </div>
 
-          <div>
-            <img id="life" src={life20} alt="life" />
-          </div>
+                    <div>
+                        <img id="life" src={life23} alt="life" />
+                    </div>
 
-          <div>
-            <img id="life" src={life19} alt="life" />
-          </div>
+                    <div>
+                        <img id="life" src={life22} alt="life" />
+                    </div>
 
-          <div>
-            <img id="life" src={life18} alt="life" />
-          </div>
+                    <div>
+                        <img id="life" src={life21} alt="life" />
+                    </div>
 
-          <div>
-            <img id="life" src={life17} alt="life" />
-          </div>
+                    <div>
+                        <img id="life" src={life20} alt="life" />
+                    </div>
 
-          <div>
-            <img id="life" src={life15} alt="life" />
-          </div>
+                    <div>
+                        <img id="life" src={life19} alt="life" />
+                    </div>
 
-          <div>
-            <img id="life" src={life16} alt="life" />
-          </div>
+                    <div>
+                        <img id="life" src={life18} alt="life" />
+                    </div>
 
-          <div>
-            <img id="life" src={life14} alt="life1" />
-          </div>
+                    <div>
+                        <img id="life" src={life17} alt="life" />
+                    </div>
 
-          <div>
-            <img id="life" src={life13} alt="life1" />
-          </div>
+                    <div>
+                        <img id="life" src={life15} alt="life" />
+                    </div>
 
-          <div>
-            <img id="life" src={life12} alt="life1" />
-          </div>
-          
-          <div>
-            <img id="life" src={life11} alt="life1" />
-          </div>
-          
-          <div>
-            <img id="life" src={life1} alt="life1" />
-          </div>
-          
-          <div>
-            <img id="life" src={life2} alt="life2" />
-          </div>
-          
-          <div>
-            <img id="life" src={life3} alt="life3" />
-          </div>
-          
-          <div>
-            <img id="life" src={life4} alt="life4" />
-          </div>
-          
-          <div>
-            <img id="life" src={life5} alt="life5" />
-          </div>
-          
-          <div>
-            <img id="life" src={life6} alt="life6" />
-          </div>
-          
-          <div>
-            <img id="life" src={life7} alt="life7" />
-          </div>
-          
-          <div>
-            <img id="life" src={life8} alt="life8" />
-          </div>
-          
-          <div>
-            <img id="life" src={life9} alt="life9" />
-          </div>
-          
-          <div>
-            <img id="life" src={life10} alt="life10" />
-          </div>
-        
-        </Slider>
-      </div>
-      <div className="LabDirector" id="LabDirector">
-        {/* <div className="Background">
+                    <div>
+                        <img id="life" src={life16} alt="life" />
+                    </div>
+
+                    <div>
+                        <img id="life" src={life14} alt="life1" />
+                    </div>
+
+                    <div>
+                        <img id="life" src={life13} alt="life1" />
+                    </div>
+
+                    <div>
+                        <img id="life" src={life12} alt="life1" />
+                    </div>
+
+                    <div>
+                        <img id="life" src={life11} alt="life1" />
+                    </div>
+
+                    <div>
+                        <img id="life" src={life1} alt="life1" />
+                    </div>
+
+                    <div>
+                        <img id="life" src={life2} alt="life2" />
+                    </div>
+
+                    <div>
+                        <img id="life" src={life3} alt="life3" />
+                    </div>
+
+                    <div>
+                        <img id="life" src={life4} alt="life4" />
+                    </div>
+
+                    <div>
+                        <img id="life" src={life5} alt="life5" />
+                    </div>
+
+                    <div>
+                        <img id="life" src={life6} alt="life6" />
+                    </div>
+
+                    <div>
+                        <img id="life" src={life7} alt="life7" />
+                    </div>
+
+                    <div>
+                        <img id="life" src={life8} alt="life8" />
+                    </div>
+
+                    <div>
+                        <img id="life" src={life9} alt="life9" />
+                    </div>
+
+                    <div>
+                        <img id="life" src={life10} alt="life10" />
+                    </div>
+                </Slider>
+            </div>
+            <div className="LabDirector" id="LabDirector">
+                {/* <div className="Background">
           <span className="title">About HSIPL</span>
           <div className="Hsipl">
             <div className="Icon">
@@ -221,13 +230,21 @@ export const About_HSIPL = () => {
             </div>
           </div>
         </div> */}
-        <span className="title1">About HSIPL</span>
-        <div className="Introduction" id="Introduction">
-          <div className="content_AH">
-            <div className = "video">
-              <iframe width = "100%" height="630" src="https://www.youtube.com/embed/Lh_4Z_jrwvk?controls=0" title="YouTube video player" frameBorder = "0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-            </div>
-            {/*}
+                <span className="title1">About HSIPL</span>
+                <div className="Introduction" id="Introduction">
+                    <div className="content_AH">
+                        <div className="video">
+                            <iframe
+                                width="100%"
+                                height="630"
+                                src="https://www.youtube.com/embed/Lh_4Z_jrwvk?controls=0"
+                                title="YouTube video player"
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                            ></iframe>
+                        </div>
+                        {/*}
             <video muted controls>
               <source
                 src={
@@ -241,26 +258,29 @@ export const About_HSIPL = () => {
               />
             </video>
             */}
-            <div className="about">
-              <p className="videocontent">
-                　The Hyperspectral Signal and Image Processing Laboratory
-                (HSIPL), founded in Sept. 2014, is under the direction of Dr.
-                Shih-Yu Chen. HSIPL is dedicated to design and develop
-                algorithms for multi or hyperspectral, medical and satellite
-                images, specifically for image classification, endmember finding
-                and target detection. In particular, we have wide interests in
-                various research topics for multi or hyperspectral applications.
-              </p>
+                        <div className="about">
+                            <p className="videocontent">
+                                　The Hyperspectral Signal and Image Processing
+                                Laboratory (HSIPL), founded in Sept. 2014, is
+                                under the direction of Dr. Shih-Yu Chen. HSIPL
+                                is dedicated to design and develop algorithms
+                                for multi or hyperspectral, medical and
+                                satellite images, specifically for image
+                                classification, endmember finding and target
+                                detection. In particular, we have wide interests
+                                in various research topics for multi or
+                                hyperspectral applications.
+                            </p>
+                        </div>
+                    </div>
+                    <div className="red">
+                        <span>
+                            希望找指導教授之學生請注意:
+                            Email請註明正取或備取名次，並附上個人基本資料履歷(包含熟悉之語言、曾做過之專題題目等)以及成績單，謝謝。
+                        </span>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div className="red">
-            <span>
-              希望找指導教授之學生請注意:
-              Email請註明正取或備取名次，並附上個人基本資料履歷(包含熟悉之語言、曾做過之專題題目等)以及成績單，謝謝。
-            </span>
-          </div>
-        </div>
-      </div>
-    </>
-  );
+        </>
+    );
 };
