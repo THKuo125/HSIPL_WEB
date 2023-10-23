@@ -1,107 +1,91 @@
 html {
     scroll-behavior: smooth;
-  }
-.contain{  
-  background-image: url(https://template101386.motopreview.com/mt-demo/101300/101386/mt-content/uploads/2020/05/mt-2019-bg-main.jpg);
-  //background-color: blanchedalmond;
-  width: 100%;
-  height: 5.5rem;
-  .top_HP {
-    position: fixed;
-    top: 0;
-    background-color: rgba(23, 39, 68, 0);
+}
+.contain {
     background-image: url(https://template101386.motopreview.com/mt-demo/101300/101386/mt-content/uploads/2020/05/mt-2019-bg-main.jpg);
-    background-size: cover;
-    display: flex;
+    //background-color: blanchedalmond;
     width: 100%;
-    z-index: 999;
-  
-    .list_HP{
-      display: flex;
-      margin: auto;
-      width: 100%;
-  
-      .logo_HP {
-        height: 10vh;
-        padding: 0% 0% 5% 2%;
-      }
-      ul {
-        margin: auto;
-        text-align: end;
-        width: 90%;
-       
-        
-      li {
-         display: inline-flex;
-         position: relative;
-         padding: 2% 2%;
-  
-         #p1_HP:hover{
-          color: #d87a00;
-         }
-  
-        ul.secondNav{
-          display: none;
-          position: absolute;
-          top: 5vw;
-          left: 1vh;
-          padding: 0;
-          
-          font-size: 1.5em;
-        }
-  
-      }
-      li:hover{
-        
-        ul.secondNav{
-         
-          display: grid;
-          justify-content: center;
-          text-align: center;
-          background-image: url(https://template101386.motopreview.com/mt-demo/101300/101386/mt-content/uploads/2020/05/mt-2019-bg-main.jpg);
-          li 
-            a{
-              color: white;
+    height: 5.5rem;
+    .top_HP {
+        position: fixed;
+        top: 0;
+        background-color: rgba(23, 39, 68, 0);
+        background-image: url(https://template101386.motopreview.com/mt-demo/101300/101386/mt-content/uploads/2020/05/mt-2019-bg-main.jpg);
+        background-size: cover;
+        display: flex;
+        width: 100%;
+        z-index: 999;
+
+        .list_HP {
+            display: flex;
+            margin: auto;
+            width: 100%;
+
+            .logo_HP {
+                height: 10vh;
+                padding: 0% 0% 5% 2%;
             }
-            a:hover{
-              color: #d87a00;
-              
+            ul {
+                margin: auto;
+                text-align: end;
+                width: 90%;
+
+                li {
+                    display: inline-flex;
+                    position: relative;
+                    padding: 2% 2%;
+
+                    #p1_HP:hover {
+                        color: #d87a00;
+                    }
+
+                    ul.secondNav {
+                        display: none;
+                        position: absolute;
+                        top: 5vw;
+                        left: 1vh;
+                        padding: 0;
+
+                        font-size: 18px;
+                    }
+                }
+                li:hover {
+                    ul.secondNav {
+                        display: grid;
+                        justify-content: center;
+                        text-align: center;
+                        background-image: url(https://template101386.motopreview.com/mt-demo/101300/101386/mt-content/uploads/2020/05/mt-2019-bg-main.jpg);
+                        li a {
+                            color: white;
+                        }
+                        a:hover {
+                            color: #d87a00;
+                        }
+                    }
+                }
             }
-  
         }
-  
-      }
-  
-     }
+
+        #p1_HP {
+            text-decoration: none;
+            font-size: 1.5em;
+            color: white;
+        }
     }
-  
-  
-    #p1_HP {
-      text-decoration: none;
-      font-size: 1.5em;
-      color: white;
-    }
-  }
 }
 
-
-@media (max-width: 1165px){
-
-  .contain {
-    margin-top:0;
-    display: none;
-    // visibility: visible;
-    
-  }
+@media (max-width: 1165px) {
+    .contain {
+        margin-top: 0;
+        display: none;
+        // visibility: visible;
+    }
 }
 
-
-@media (max-width: 1024px){
-
-  .contain {
-    margin-top:0;
-    display: none;
-    // visibility: visible;
-    
-  }
+@media (max-width: 1024px) {
+    .contain {
+        margin-top: 0;
+        display: none;
+        // visibility: visible;
+    }
 }

@@ -76,9 +76,9 @@ const Navbar = () => {
                                 <li
                                     style={{
                                         whiteSpace: "nowrap",
-                                        fontSize: "16px",
                                     }}
                                 >
+                                    {" "}
                                     <a
                                         href={
                                             "https://scholar.google.com/citations?user=0LxRRawAAAAJ&hl=zh-TW"
@@ -133,6 +133,7 @@ const Navbar = () => {
                                 <li
                                     style={{
                                         fontSize: "15px",
+                                        textAlign: "left",
                                     }}
                                 >
                                     <a href="/LearnMore#UniversityIndustryCooperation">

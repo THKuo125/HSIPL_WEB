@@ -209,7 +209,7 @@ const Projects_columns = [
     { title: "計畫名稱", dataIndex: "name" },
     { title: "起訖日期", dataIndex: "date" },
     { title: "補助單位", dataIndex: "unit" },
-    { title: "經費總額", dataIndex: "money" },
+    // { title: "經費總額", dataIndex: "money" },
 ];
 
 const Projects_data = [
