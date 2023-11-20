@@ -153,7 +153,7 @@ const Honer = () => {
                             />
                             <div className="detail_hon">
                                 <h3>
-                                    本實驗室團隊餐與
+                                    本實驗室團隊參與
                                     <span className="red">
                                         <br />
                                         智能監視違規丟垃圾行為監測系統
