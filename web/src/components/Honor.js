@@ -35,6 +35,7 @@ import img_2022calculate from "../img/Honor/2022泛珠三角計算機作品三�
 import img_2022PonHo from "../img/Honor/PonHo_2022.jpg";
 import img_2022_SIIFsilver from "../img/Honor/2022_SIIFsilver.jpg";
 import 海峽兩岸暨港澳地區大學生計算機創新作品賽總決賽 from "../img/Honor/海峽兩岸暨港澳地區大學生計算機創新作品賽總決賽.png";
+import 雲創盃智慧生活創新應用競賽2023年 from "../img/Honor/雲創盃智慧生活創新應用競賽2023年.png";
 
 // import Zmage from "react-zmage";
 import "antd/dist/antd.css";
@@ -143,6 +144,29 @@ const Honer = () => {
                 >
                     <div className="pic_hon" id="secondpic">
                         <div className="all">
+                            <h4>2023-11/14</h4>
+                            <Image
+                                className="column_Pic"
+                                src={雲創盃智慧生活創新應用競賽2023年}
+                                alt="雲創盃智慧生活創新應用競賽2023年"
+                            />
+                            <div className="detail_hon">
+                                <h3>
+                                    本實驗室團隊參與
+                                    <span className="red">
+                                        <br />
+                                        2023年雲創盃智慧生活創新應用競賽
+                                    </span>
+                                    <br />
+                                    榮獲
+                                    <span className="red"> 第二名 </span>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="pic_hon" id="secondpic">
+                        <div className="all">
                             <h4>2023-7/5</h4>
                             <Image
                                 className="column_Pic"
@@ -164,32 +188,6 @@ const Honer = () => {
                                         {" "}
                                         海峽兩岸暨港澳地區大學生計算機創新作品賽總決賽
                                         二等獎{" "}
-                                    </span>
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="pic_hon" id="secondpic">
-                        <div className="all">
-                            <h4>2022​-11/16~11/19</h4>
-                            <Image
-                                className="column_Pic"
-                                src={img_2022_SIIFsilver}
-                                alt="img_2022_SIIFsilver"
-                            />
-                            <div className="detail_hon">
-                                <h3>
-                                    本實驗室團隊研發
-                                    <span className="red">
-                                        <br />
-                                        「高光譜雞蛋品質檢測-以瑕疵與新鮮度為例」
-                                    </span>
-                                    <br />
-                                    榮獲
-                                    <span className="red">
-                                        {" "}
-                                        韓國首爾發明展 銀牌{" "}
                                     </span>
                                 </h3>
                             </div>
