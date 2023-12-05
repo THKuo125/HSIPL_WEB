@@ -380,26 +380,30 @@ export const UniversityIndustryCooperation = () => {
             <h1 className="Title">University–industry cooperation</h1>
             <div className="logo-group">
                 <div class="logo-wrap">
-                    <img src={twincn} alt="twincn" />
+                    <img src={twincn} alt="twincn" title="毅錡國際" />
                 </div>
                 <div class="logo-wrap">
-                    <img src={corning} alt="corning" />
+                    <img src={corning} alt="corning" title="台灣康寧" />
                 </div>
                 <div class="logo-wrap">
-                    <img src={gips} alt="gips" />
+                    <img src={gips} alt="gips" title="吉普司科技" />
                 </div>
                 <div class="logo-wrap">
-                    <img src={isuzu_optics} alt="isuzu_optics" />
+                    <img
+                        src={isuzu_optics}
+                        alt="isuzu_optics"
+                        title="五鈴光學"
+                    />
                 </div>
                 <div class="logo-wrap">
-                    <img src={nstc} alt="nstc" />
+                    <img src={nstc} alt="nstc" title="國科會" />
                 </div>
                 <div class="logo-wrap">
-                    <img src={tari} alt="tari" />
+                    <img src={tari} alt="tari" title="農業部農業試驗所" />
                 </div>
                 <div class="logo-wrap">
-                    <img src={norky} alt="norky" />
-                    <img src={civilmap} alt="civilmap" />
+                    <img src={norky} alt="norky" title="諾錡" />
+                    <img src={civilmap} alt="civilmap" title="坤眾科技" />
                 </div>
             </div>
         </div>
