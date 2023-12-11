@@ -254,7 +254,7 @@ const Members1 = () => {
                         <img src={M11217064} alt="M11217064"></img>
                         <div className="detail4">
                             <h4>陳彥翔</h4>
-                            <span>研究方向 : 影像處理　</span>
+                            <span>研究方向 : 影像處理</span>
                             <div className="Email">
                                 <a href="/#">
                                     <i class="fas fa-envelope mail"></i>
