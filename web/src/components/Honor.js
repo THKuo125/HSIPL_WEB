@@ -36,6 +36,7 @@ import img_2022PonHo from "../img/Honor/PonHo_2022.jpg";
 import img_2022_SIIFsilver from "../img/Honor/2022_SIIFsilver.jpg";
 import 海峽兩岸暨港澳地區大學生計算機創新作品賽總決賽 from "../img/Honor/海峽兩岸暨港澳地區大學生計算機創新作品賽總決賽.png";
 import 雲創盃智慧生活創新應用競賽2023年 from "../img/Honor/雲創盃智慧生活創新應用競賽2023年.png";
+import IIDC2023 from "../img/Honor/IIDC2023.jpg";
 
 // import Zmage from "react-zmage";
 import "antd/dist/antd.css";
@@ -142,6 +143,39 @@ const Honer = () => {
                     nextArrow={<Arrow type="next" />}
                     prevArrow={<Arrow type="prev" />}
                 >
+                    <div className="pic_hon" id="secondpic">
+                        <div className="all">
+                            <h4>2023​-12/08</h4>
+                            <Image
+                                className="column_Pic"
+                                src={IIDC2023}
+                                alt="KaoShonGoldWard"
+                            />
+                            <div className="detail_hon">
+                                <h3>
+                                    本實驗室團隊研發{" "}
+                                    <span className="red">
+                                    <br />
+                                    「高光譜影像辨識於食品品質分級之應用以香菇產地為例」
+                                    </span>{" "}
+                                    <br />
+                                    榮獲
+                                    <span className="red">
+                                        {" "}
+                                        2023 香港國際發明展 銀牌
+                                    </span>
+                                    <br />
+                                    <a
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        href="https://www.yuntech.edu.tw/index.php/2019-04-10-08-06-20/item/9702-2023-12-11-06-27-49"
+                                    >
+                                        <u>雲科大新聞</u>
+                                    </a>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
                     <div className="pic_hon" id="secondpic">
                         <div className="all">
                             <h4>2023-11/14</h4>
