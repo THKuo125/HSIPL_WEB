@@ -275,8 +275,9 @@ export const About_HSIPL = () => {
                     </div>
                     <div className="red">
                         <span>
-                            希望找指導教授之學生請注意:
+                            <b>希望找指導教授之學生請注意:
                             Email請註明正取或備取名次，並附上個人基本資料履歷(包含熟悉之語言、曾做過之專題題目等)以及成績單，謝謝。
+                            </b>
                         </span>
                     </div>
                 </div>

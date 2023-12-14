@@ -211,10 +211,10 @@ const Honer = () => {
                             />
                             <div className="detail_hon">
                                 <h3>
-                                    本實驗室團隊參與
+                                    本實驗室團隊研發
                                     <span className="red">
                                         <br />
-                                        智能監視違規丟垃圾行為監測系統
+                                        「智能監視違規丟垃圾行為監測系統」
                                     </span>
                                     <br />
                                     榮獲
@@ -290,10 +290,11 @@ const Honer = () => {
                             />
                             <div className="detail_hon">
                                 <h3>
-                                    本實驗室團隊
+                                    本實驗室團隊研發
                                     <span className="red">
+                                    <br />
                                         {" "}
-                                        高光譜咖啡豆即時自動化瑕疵檢測系統{" "}
+                                        「高光譜咖啡豆即時自動化瑕疵檢測系統」{" "}
                                     </span>
                                     榮獲
                                     <span className="red">
@@ -321,6 +322,7 @@ const Honer = () => {
                                     <span className="red">
                                         即時生咖啡豆瑕疵檢測機台
                                     </span>{" "}
+                                    <br />
                                     榮獲
                                     <span className="red">
                                         {" "}
@@ -362,6 +364,7 @@ const Honer = () => {
                                     <span className="red">
                                         即時生咖啡豆瑕疵檢測機台
                                     </span>{" "}
+                                    <br />
                                     榮獲
                                     <span className="red">
                                         {" "}

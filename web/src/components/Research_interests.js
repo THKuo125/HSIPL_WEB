@@ -117,25 +117,25 @@ const Research_interests = () => {
                         有效量化新生葉芽數量，此項新技術為環境監控與全球暖化議題提供重要訊息與幫助。
                     </h3>
                 </div>
-                <div className="Item">
-                    <h1>咖啡瑕疵豆檢測</h1>
-                    {/* <img src={coffee} alt="coffee" onClick={()=>Zmage.browsing({src:coffee,backdrop:" hsla(0, 0%, 38%, 0.911)"})}></img> */}
-                    {/* <Image src={coffee} alt="coffee" /> */}
+                    <div className="Item">
+                        <h1>咖啡瑕疵豆檢測</h1>
+                        {/* <img src={coffee} alt="coffee" onClick={()=>Zmage.browsing({src:coffee,backdrop:" hsla(0, 0%, 38%, 0.911)"})}></img> */}
+                        {/* <Image src={coffee} alt="coffee" /> */}
 
-                    <iframe
-                        width="300"
-                        height="200"
-                        src="https://www.youtube.com/embed/6s82_jf0-Ik"
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen
-                    ></iframe>
+                        <iframe
+                            width="300"
+                            height="200"
+                            src="https://www.youtube.com/embed/6s82_jf0-Ik"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                        ></iframe>
 
-                    <h3>
-                        以高光譜技術利用AI深度學習演算法並結合機械手臂，對於深咖啡的品質進行即時性的檢測，其準確率可達94%
-                    </h3>
-                </div>
+                        <h3>
+                            以高光譜技術利用AI深度學習演算法並結合機械手臂，對於深咖啡的品質進行即時性的檢測，其準確率可達94%
+                        </h3>
+                    </div>
                 <div className="Item">
                     <h1>花生品質檢測</h1>
                     {/* <img src={peanuts} alt="peanuts" onClick={()=>Zmage.browsing({src:peanuts,backdrop:" hsla(0, 0%, 38%, 0.911)"})}></img> */}
@@ -174,6 +174,27 @@ const Research_interests = () => {
                         紅色為含有病毒，綠色為無病毒 預測結果約在71~75%
                     </h3>
                 </div>
+
+                <div className="Item">
+                    <h1>亂丟垃圾違規辨識</h1>
+                    {/* <img src={coffee} alt="coffee" onClick={()=>Zmage.browsing({src:coffee,backdrop:" hsla(0, 0%, 38%, 0.911)"})}></img> */}
+                    {/* <Image src={coffee} alt="coffee" /> */}
+
+                    <iframe
+                        width="300"
+                        height="200"
+                        src="https://www.youtube.com/watch?v=IFnJY2SwZRQ&ab_channel=HSIP-%E5%AF%A6%E9%A9%97%E5%AE%A4                        "
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                    ></iframe>
+
+                    <h3>
+                        以影像處理的方法來進行違規亂丟垃圾的辨識，透過於路口監視器設置該演算法，對於違規取締的警力需求能夠有所下降
+                    </h3>
+                </div>
+
                 <div className="Item">
                     <h1>芒果受傷區域檢測</h1>
                     {/* <img src={mango} alt="mango" onClick={()=>Zmage.browsing({src:mango,backdrop:" hsla(0, 0%, 38%, 0.911)"})}></img> */}
