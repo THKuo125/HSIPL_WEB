@@ -58,7 +58,27 @@ const Research_interests = () => {
           JOURNAL更是IF高達7.31之期刊， 2018-2019 發表三篇於Remote
           Sensing，其IF也是高達4.50之期刊。
         </span> */}
+
+
             <div className="article">
+                <div className="Item">
+                    <h1>亂丟垃圾違規辨識</h1>
+
+                    <iframe
+                        width="300"
+                        height="200"
+                        src="https://www.youtube.com/embed/IFnJY2SwZRQ?si=Z-enrNqc6IRgizmy"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                    ></iframe>
+
+                    <h3>
+                    停等紅燈駕駛違規丟垃圾行為偵測系統，融合影像處理技術與深度學習兩者優勢，並利用已架設於路口之監視器進行偵測，達到降低成本且提高效率之目的。
+                    </h3>
+                </div>
+
                 <div className="Item">
                     <h1>智慧農業與智慧製造</h1>
                     {/* <img src={light50} alt="light50" onClick={()=>Zmage.browsing({src:light50,backdrop:" hsla(0, 0%, 38%, 0.911)"})} ></img> */}
@@ -172,26 +192,6 @@ const Research_interests = () => {
                     <h3>
                         實際品質：左邊為有病毒之植株，右邊為健康植株 預測品質：
                         紅色為含有病毒，綠色為無病毒 預測結果約在71~75%
-                    </h3>
-                </div>
-
-                <div className="Item">
-                    <h1>亂丟垃圾違規辨識</h1>
-                    {/* <img src={coffee} alt="coffee" onClick={()=>Zmage.browsing({src:coffee,backdrop:" hsla(0, 0%, 38%, 0.911)"})}></img> */}
-                    {/* <Image src={coffee} alt="coffee" /> */}
-
-                    <iframe
-                        width="300"
-                        height="200"
-                        src="https://www.youtube.com/watch?v=IFnJY2SwZRQ&ab_channel=HSIP-%E5%AF%A6%E9%A9%97%E5%AE%A4                        "
-                        title="YouTube video player"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen
-                    ></iframe>
-
-                    <h3>
-                        以影像處理的方法來進行違規亂丟垃圾的辨識，透過於路口監視器設置該演算法，對於違規取締的警力需求能夠有所下降
                     </h3>
                 </div>
 
