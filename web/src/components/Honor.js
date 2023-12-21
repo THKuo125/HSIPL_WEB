@@ -35,7 +35,7 @@ import img_2022calculate from "../img/Honor/2022泛珠三角計算機作品三�
 import img_2022PonHo from "../img/Honor/PonHo_2022.jpg";
 import img_2022_SIIFsilver from "../img/Honor/2022_SIIFsilver.jpg";
 import 海峽兩岸暨港澳地區大學生計算機創新作品賽總決賽 from "../img/Honor/海峽兩岸暨港澳地區大學生計算機創新作品賽總決賽.png";
-import 雲創盃智慧生活創新應用競賽2023年 from "../img/Honor/雲創盃智慧生活創新應用競賽2023年.png";
+import 雲創盃智慧生活創新應用競賽2023年 from "../img/Honor/雲創盃智慧生活創新應用競賽2023年.jpg";
 import IIDC2023 from "../img/Honor/IIDC2023.jpg";
 
 // import Zmage from "react-zmage";

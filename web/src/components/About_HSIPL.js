@@ -35,6 +35,7 @@ import life29 from "../img/Photos of life/2023.08聚餐.jpg";
 import life30 from "../img/Photos of life/2023.09聚餐.jpg";
 import life31 from "../img/Photos of life/2023.10聚餐.jpg";
 import life32 from "../img/Photos of life/20231220.jpg";
+import life33 from "../img/Photos of life/2023.12.21老師生日.jpg";
 
 import "antd/dist/antd.css";
 
@@ -53,8 +54,13 @@ export const About_HSIPL = () => {
             <div className="all_life">
                 <Slider className="life_Slider" autoplay {...settings_slider}>
                     <div>
+                        <img id="life" src={life33} alt="life" />
+                    </div>
+                    
+                    <div>
                         <img id="life" src={life32} alt="life" />
                     </div>
+
                     <div>
                         <img id="life" src={life31} alt="life" />
                     </div>
