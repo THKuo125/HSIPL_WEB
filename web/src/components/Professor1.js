@@ -242,7 +242,7 @@ const data = [
         Num: "",
         blod: "Shih-Yu Chen.",
         content1:
-            "Vinay Kukreja1, Asha Abraham2, K. Kalaiselvi3, K. Deepa Thilak3, Shanmugasundaram Hariharan4, ",
+            "Vinay Kukreja, Asha Abraham, K. Kalaiselvi, K. Deepa Thilak, Shanmugasundaram Hariharan, ",
         content2: "",
 
         link: "https://www.techscience.com/cmc/online/detail/19543",
