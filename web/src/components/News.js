@@ -16,6 +16,7 @@ import img_PT202205 from "../img/News/Personnel_training202205.jpg"
 import ima_summerIRIS from "../img/News/20220803智慧辨識技術講座暨交流會議.jpg"
 import img_22th_AOI from "../img/News/22th_AOI.jpg"
 import img_2022_SIIFsilver from "../img/News/2022_SIIFsilver.jpg"
+import img_IIDC2023 from "../img/News/IIDC2023.jpg"
 
 // import Zmage from "react-zmage";
 import 'antd/dist/antd.css';
@@ -52,9 +53,30 @@ const News = () => {
         
         {/*  新增資訊由此開始  */}
         <div className="Item">
+          <h1>2023/12/11</h1>
+          <br></br>
+          <Image  src={img_IIDC2023} alt="img_IIDC2023"/>
+          <h3>
+            <br />
+            本實驗室陳士煜教師帶領學生團隊研發 <span className = "red">「高光譜影像辨識於食品品質分級之應用以香菇產地為例」</span>
+            <br/>
+            並獲 <span className="red">中央社</span> 報導 <a
+              target="_blank" rel="noopener noreferrer"
+              href="https://www.cna.com.tw/postwrite/chi/359296"
+              class ="red"
+            >
+              <u>
+              香港國際發明展 雲科大金光閃閃
+              </u>
+            </a>
+          </h3>
+        </div>
+
+        <div className="Item">
           <h1>2022/11/30</h1>
           <Image  src={img_2022_SIIFsilver} alt="img_2022_SIIFsilver"/>
           <h3>
+            <br></br>
             <br />
             本實驗室陳士煜教師帶領學生團隊研發 <span className = "red">「高光譜雞蛋品質檢測 - 以瑕疵與新鮮度為例」</span>
             <br/>
@@ -69,6 +91,7 @@ const News = () => {
             </a>
           </h3>
         </div>
+
 
         <div className="Item">
           <h1>2022/09/29</h1>
