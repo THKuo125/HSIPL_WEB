@@ -13,6 +13,7 @@ import M11217008 from "../img/members/M11217008.jpg";
 import M11217010 from "../img/members/M11217010.jpg";
 import M11217022 from "../img/members/M11217022.jpg";
 import M11217064 from "../img/members/M11217064.jpg";
+import M11317001 from "../img/members/M11317001.jpg";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -260,6 +261,19 @@ const Members1 = () => {
                                     <i class="fas fa-envelope mail"></i>
                                 </a>
                                 <span>M11217064@yuntech.edu.tw</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="pic1" id="fifthpic1">
+                        <img src={M11317001} alt="M11317001"></img>
+                        <div className="detail4">
+                            <h4>古秀茜</h4>
+                            <span>研究方向 : 影像處理</span>
+                            <div className="Email">
+                                <a href="/#">
+                                    <i class="fas fa-envelope mail"></i>
+                                </a>
+                                <span>M11317001@yuntech.edu.tw</span>
                             </div>
                         </div>
                     </div>
