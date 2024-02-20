@@ -238,6 +238,18 @@ const Experience_data = [
 
 const data = [
     {
+        Year:"2024",
+        Num :"1",
+        blod: "Shih-Yu Chen,",
+        content1:
+            "",
+        content2:" Mei-Yun Wang, Yung-Ming Kuo, Yu-Chia Chan, Yi-Cheng Chen, ",
+        link:"https://www.sciencedirect.com/science/article/pii/S0925521424000826?dgcid=author",
+        title:"Almond defect and freshness inspection system using hyperspectral imaging and deep learning techniques",
+        content3:"Food Control, vol. 211, p.112837, May 2024 本人為第一作者、通訊作者",
+
+    },
+    {
         Year: "2023",
         Num: "",
         blod: "Shih-Yu Chen.",
