@@ -17,6 +17,7 @@ import ima_summerIRIS from "../img/News/20220803智慧辨識技術講座暨交�
 import img_22th_AOI from "../img/News/22th_AOI.jpg"
 import img_2022_SIIFsilver from "../img/News/2022_SIIFsilver.jpg"
 import img_IIDC2023 from "../img/News/IIDC2023.jpg"
+import img_2024_0506 from "../img/News/2024.05.06光譜式先進影像科技應用.jpg"
 
 // import Zmage from "react-zmage";
 import 'antd/dist/antd.css';
@@ -49,12 +50,19 @@ const News = () => {
       <div className="Title">
         <h1>News</h1>
       </div>
-      <div className="allItems">
-        
+      <div className="allItems">    
         {/*  新增資訊由此開始  */}
         <div className="Item">
+          <h1>2024/05/06</h1>
+          <Image  src={img_2024_0506} alt="img_2024_0506"/>
+          <h3>  本實驗室陳士煜教師獲 <span className = "red">2024光譜式先進影像科技應用</span>Div1、Div8聯合論壇活動邀請擔任 講師 一職
+            <br />
+            <br />
+          </h3>
+        </div>
+
+        <div className="Item">
           <h1>2023/12/11</h1>
-          <br></br>
           <Image  src={img_IIDC2023} alt="img_IIDC2023"/>
           <h3>
             <br />
@@ -71,12 +79,10 @@ const News = () => {
             </a>
           </h3>
         </div>
-
         <div className="Item">
           <h1>2022/11/30</h1>
           <Image  src={img_2022_SIIFsilver} alt="img_2022_SIIFsilver"/>
           <h3>
-            <br></br>
             <br />
             本實驗室陳士煜教師帶領學生團隊研發 <span className = "red">「高光譜雞蛋品質檢測 - 以瑕疵與新鮮度為例」</span>
             <br/>
@@ -91,8 +97,6 @@ const News = () => {
             </a>
           </h3>
         </div>
-
-
         <div className="Item">
           <h1>2022/09/29</h1>
           <Image  src={img_22th_AOI} alt="img_22th_AOI"/>
