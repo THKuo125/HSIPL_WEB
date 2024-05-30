@@ -243,7 +243,7 @@ const data = [
         blod: "Shih-Yu Chen,",
         content1:
             "",
-        content2:" Kai-Hsun Hsu, Tzu-Hsien Kuo ",
+        content2:" Kai-Hsun Hsu, Tzu-Hsien Kuo. ",
         link:"https://ieeexplore.ieee.org/document/10509762",
         title:"Hyperspectral Target Detection-Based 2-D–3-D Parallel Convolutional Neural Networks for Hyperspectral Image Classification",
         content3:"IEEE JOURNAL OF SELECTED TOPICS IN APPLIED EARTH OBSERVATIONS AND REMOTE SENSING, VOL. 17, 9451 - 9469, 本人為第一作者、通訊作者",
@@ -255,10 +255,10 @@ const data = [
         blod: "Shih-Yu Chen,",
         content1:
             "",
-        content2:" Mei-Yun Wang, Yung-Ming Kuo, Yu-Chia Chan, Yi-Cheng Chen, ",
+        content2:" Mei-Yun Wang, Yung-Ming Kuo, Yu-Chia Chan, Yi-Cheng Chen. ",
         link:"https://www.sciencedirect.com/science/article/pii/S0925521424000826?dgcid=author",
         title:"Almond defect and freshness inspection system using hyperspectral imaging and deep learning techniques",
-        content3:"Food Control, vol. 211, p.112837, May 2024 本人為第一作者、通訊作者",
+        content3:"Postharvest Biology and Technology, vol. 211, p.112837, May 2024 本人為第一作者、通訊作者",
 
     },
     {

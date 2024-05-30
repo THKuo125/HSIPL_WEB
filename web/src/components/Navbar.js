@@ -68,11 +68,13 @@ const Navbar = () => {
                                         Conference
                                     </a>
                                 </li>
+                                {/*
                                 <li>
                                     <a href="/ProfessorDetail#pf_Award">
                                         Awards
                                     </a>
                                 </li>
+                                */}
                                 <li
                                     style={{
                                         whiteSpace: "nowrap",

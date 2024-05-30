@@ -27,7 +27,7 @@ const HamburgerDT = () => {
           <li><a onClick={() => setOpen(!open)} href="#Talks">Talks</a></li>
           <li><a onClick={() => setOpen(!open)} href="#Service">Service</a></li>
           <li><a onClick={() => setOpen(!open)} href="#Conference">Conference</a></li>
-          <li><a onClick={() => setOpen(!open)} href="#Awards">Awards</a></li>
+          {/*<li><a onClick={() => setOpen(!open)} href="#Awards">Awards</a></li>*/}
         </ul>
       </div>
     </nav>

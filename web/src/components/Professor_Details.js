@@ -115,7 +115,7 @@ export const Conference = () => {
   );
 };
 
-export const Awards = () => {
+{/*export const Awards = () => {
   return (
     <div className="part" id="Awards">
       <div className="List">
@@ -193,6 +193,13 @@ export const Awards = () => {
     </div>
   );
 };
+*/}
+
+export const Awards = () => {
+  return(
+    <div className="part" id="Awards"></div>
+  )
+}
 
 const Talks_columns = [
   { title: "Date", dataIndex: "date" },
