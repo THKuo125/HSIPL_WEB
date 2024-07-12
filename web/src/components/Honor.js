@@ -37,6 +37,9 @@ import img_2022_SIIFsilver from "../img/Honor/2022_SIIFsilver.jpg";
 import 海峽兩岸暨港澳地區大學生計算機創新作品賽總決賽 from "../img/Honor/海峽兩岸暨港澳地區大學生計算機創新作品賽總決賽.png";
 import 雲創盃智慧生活創新應用競賽2023年 from "../img/Honor/雲創盃智慧生活創新應用競賽2023年.jpg";
 import IIDC2023 from "../img/Honor/IIDC2023.jpg";
+import Taiwan from "../img/Honor/創新作品台灣區.jpg"
+import 斐陶斐 from "../img/Honor/斐陶斐.jpg"
+
 
 // import Zmage from "react-zmage";
 import "antd/dist/antd.css";
@@ -143,6 +146,51 @@ const Honer = () => {
                     nextArrow={<Arrow type="next" />}
                     prevArrow={<Arrow type="prev" />}
                 >
+                <div className="pic_hon" id="secondpic">
+                        <div className="all">
+                            <h4>2024-6/4</h4>
+                            <Image
+                                className="column_Pic"
+                                src={Taiwan}
+                                alt="2024年(第十九屆)海峽兩岸暨港澳地區大學生計算機創新作品賽台灣賽區"
+                            />
+                            <div className="detail_hon">
+                                <h3>
+                                    本實驗室團隊研發
+
+                                    <span className="red">
+                                        <br />
+                                        高光譜番茄瑕疵智能檢測
+                                    </span>
+                                    <br />
+                                    榮獲
+                                    <span className="red"> 2024年(第十九屆)海峽兩岸暨港澳地區大學生計算機創新作品賽台灣賽區 二等獎 </span>
+                                </h3>
+                            </div>
+                        </div>
+                </div>
+
+                <div className="pic_hon" id="secondpic">
+                        <div className="all">
+                            <h4>2024-6/1</h4>
+                            <Image
+                                className="column_Pic"
+                                src={斐陶斐}
+                                alt="2024年(第十九屆)海峽兩岸暨港澳地區大學生計算機創新作品賽台灣賽區"
+                            />
+                            <div className="detail_hon">
+                                <h3>
+                                    本實驗室 郭子賢同學
+                                    <br />
+                                    榮獲
+                                    <span className="red"> 斐陶斐榮譽學會榮譽會員 </span>
+                                </h3>
+                            </div>
+                        </div>
+                </div>
+
+
+
                     <div className="pic_hon" id="secondpic">
                         <div className="all">
                             <h4>2023​-12/08</h4>
