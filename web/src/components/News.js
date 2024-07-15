@@ -18,6 +18,8 @@ import img_22th_AOI from "../img/News/22th_AOI.jpg"
 import img_2022_SIIFsilver from "../img/News/2022_SIIFsilver.jpg"
 import img_IIDC2023 from "../img/News/IIDC2023.jpg"
 import img_2024_0506 from "../img/News/2024.05.06光譜式先進影像科技應用.jpg"
+import 工作坊 from "../img/News/工作坊.jpg"
+
 
 // import Zmage from "react-zmage";
 import 'antd/dist/antd.css';
@@ -52,6 +54,13 @@ const News = () => {
       </div>
       <div className="allItems">    
         {/*  新增資訊由此開始  */}
+        <div className="Item">
+          <h1>2024/07/22</h1>
+          <Image  src={工作坊} alt="img_IIDC2023"/>
+          <h3> 本實驗室陳士煜教師獲<span className = "red">光與高光譜影像平台應用工作坊</span>邀請 擔任 講師 一職              
+          </h3>
+        </div>
+
         <div className="Item">
           <h1>2024/05/06</h1>
           <Image  src={img_2024_0506} alt="img_2024_0506"/>
