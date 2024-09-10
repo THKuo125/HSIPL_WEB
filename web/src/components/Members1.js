@@ -1,19 +1,19 @@
 import React from "react";
 import "./Members1.scss";
 
-import YiCheng from "../img/members/M11117005.JPG";
-import YiXiang from "../img/members/M11117025.JPG";
-import TzuHsien from "../img/members/M11117038.JPG";
-import HongYu from "../img/members/M11117039.JPG";
-import KuanLiang from "../img/members/M11117040.JPG";
-import XiangYu from "../img/members/M11117056.JPG";
-
 import M11212031 from "../img/members/M11212031.jpg";
 import M11217008 from "../img/members/M11217008.jpg";
 import M11217010 from "../img/members/M11217010.jpg";
 import M11217022 from "../img/members/M11217022.jpg";
 import M11217064 from "../img/members/M11217064.jpg";
 import M11317001 from "../img/members/M11317001.jpg";
+
+import M11217039 from "../img/members/M11217039.JPG";
+import M11317019 from "../img/members/M11317019.JPG";
+import M11317008 from "../img/members/M11317008.JPG";
+import M11317012 from "../img/members/M11317012.JPG";
+import M11317014 from "../img/members/M11317014.JPG";
+
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -106,99 +106,7 @@ const Members1 = () => {
                     nextArrow={<Arrow type="next" />}
                     prevArrow={<Arrow type="prev" />}
                 >
-                    <div className="pic1" id="fifthpic1">
-                        <img src={YiCheng} alt="YiCheng"></img>
-                        <div className="detail4">
-                            <h4>陳毅澄</h4>
-                            <span>研究方向 : 影像處理</span>
-                            <div className="Email">
-                                <a href="/#">
-                                    <i class="fas fa-envelope mail"></i>
-                                </a>
-                                <span>M11117005@yuntech.edu.tw</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="pic1" id="fifthpic1">
-                        <img src={YiXiang} alt="YiXiang"></img>
-                        <div className="detail4">
-                            <h4>洪翊祥</h4>
-                            <span>研究方向 : 影像處理</span>
-                            <div className="Email">
-                                <a href="/#">
-                                    <i class="fas fa-envelope mail"></i>
-                                </a>
-                                <span>M11117025@yuntech.edu.tw</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="pic1" id="fifthpic1">
-                        <img src={TzuHsien} alt="TzuHsien"></img>
-                        <div className="detail4">
-                            <h4>郭子賢</h4>
-                            <span>研究方向 : 影像處理</span>
-                            <div className="Email">
-                                <a href="/#">
-                                    <i class="fas fa-envelope mail"></i>
-                                </a>
-                                <span>M11117038@yuntech.edu.tw</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="pic1" id="fifthpic1">
-                        <img src={HongYu} alt="HongYu"></img>
-                        <div className="detail4">
-                            <h4>黃泓瑜</h4>
-                            <span>研究方向 : 影像處理</span>
-                            <div className="Email">
-                                <a href="/#">
-                                    <i class="fas fa-envelope mail"></i>
-                                </a>
-                                <span>M11117039@yuntech.edu.tw</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="pic1" id="fifthpic1">
-                        <img src={KuanLiang} alt="KuanLiang"></img>
-                        <div className="detail4">
-                            <h4>劉冠良</h4>
-                            <span>研究方向 : 影像處理</span>
-                            <div className="Email">
-                                <a href="/#">
-                                    <i class="fas fa-envelope mail"></i>
-                                </a>
-                                <span>M11117040@yuntech.edu.tw</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="pic1" id="fifthpic1">
-                        <img src={XiangYu} alt="XiangYu"></img>
-                        <div className="detail4">
-                            <h4>黃翔雨</h4>
-                            <span>研究方向 : 影像處理</span>
-                            <div className="Email">
-                                <a href="/#">
-                                    <i class="fas fa-envelope mail"></i>
-                                </a>
-                                <span>M11117056@yuntech.edu.tw</span>
-                            </div>
-                        </div>
-                    </div>
-                </Slider>
-            </div>
 
-            <div className="master2" id="Junior">
-                <h2>Junior Students</h2>
-            </div>
-
-            <div className="picborder1">
-                <Slider
-                    className="masterpic1"
-                    id="masterpic1"
-                    {...settings}
-                    nextArrow={<Arrow type="next" />}
-                    prevArrow={<Arrow type="prev" />}
-                >
                     <div className="pic1" id="fifthpic1">
                         <img src={M11212031} alt="M11212031"></img>
                         <div className="detail4">
@@ -212,6 +120,7 @@ const Members1 = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className="pic1" id="fifthpic1">
                         <img src={M11217008} alt="M11217008"></img>
                         <div className="detail4">
@@ -264,6 +173,34 @@ const Members1 = () => {
                             </div>
                         </div>
                     </div>
+                </Slider>
+            </div>
+
+            <div className="master2" id="Junior">
+                <h2>Junior Students</h2>
+            </div>
+ 
+            <div className="picborder1">
+                <Slider
+                    className="masterpic1"
+                    id="masterpic1"
+                    {...settings}
+                    nextArrow={<Arrow type="next" />}
+                    prevArrow={<Arrow type="prev" />}
+                >
+                    <div className="pic1" id="fifthpic1">
+                        <img src={M11217039} alt="M11217039"></img>
+                        <div className="detail4">
+                            <h4>黃俊維</h4>
+                            <span>研究方向 : 影像處理</span>
+                            <div className="Email">
+                                <a href="/#">
+                                    <i class="fas fa-envelope mail"></i>
+                                </a>
+                                <span>M11217039@yuntech.edu.tw</span>
+                            </div>
+                        </div>
+                    </div>
                     <div className="pic1" id="fifthpic1">
                         <img src={M11317001} alt="M11317001"></img>
                         <div className="detail4">
@@ -274,6 +211,58 @@ const Members1 = () => {
                                     <i class="fas fa-envelope mail"></i>
                                 </a>
                                 <span>M11317001@yuntech.edu.tw</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="pic1" id="fifthpic1">
+                        <img src={M11317008} alt="M11317008"></img>
+                        <div className="detail4">
+                            <h4>吳鎧全</h4>
+                            <span>研究方向 : 影像處理</span>
+                            <div className="Email">
+                                <a href="/#">
+                                    <i class="fas fa-envelope mail"></i>
+                                </a>
+                                <span>M11317008@yuntech.edu.tw</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="pic1" id="fifthpic1">
+                        <img src={M11317012} alt="M11317012"></img>
+                        <div className="detail4">
+                            <h4>莊哲綸</h4>
+                            <span>研究方向 : 影像處理</span>
+                            <div className="Email">
+                                <a href="/#">
+                                    <i class="fas fa-envelope mail"></i>
+                                </a>
+                                <span>M11317012@yuntech.edu.tw</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="pic1" id="fifthpic1">
+                        <img src={M11317014} alt="M11317014"></img>
+                        <div className="detail4">
+                            <h4>陳俊元</h4>
+                            <span>研究方向 : 影像處理</span>
+                            <div className="Email">
+                                <a href="/#">
+                                    <i class="fas fa-envelope mail"></i>
+                                </a>
+                                <span>M11317014@yuntech.edu.tw</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="pic1" id="fifthpic1">
+                        <img src={M11317019} alt="M11317019"></img>
+                        <div className="detail4">
+                            <h4>何書維</h4>
+                            <span>研究方向 : 影像處理</span>
+                            <div className="Email">
+                                <a href="/#">
+                                    <i class="fas fa-envelope mail"></i>
+                                </a>
+                                <span>M11317019@yuntech.edu.tw</span>
                             </div>
                         </div>
                     </div>

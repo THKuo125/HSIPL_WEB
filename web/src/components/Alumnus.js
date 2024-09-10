@@ -39,6 +39,13 @@ import Yu from "../img/Alumnus/M11017054.png";
 import Jia from "../img/Alumnus/M11017057.png";
 import JiaWei from "../img/Alumnus/M10717042.JPG";
 
+import M11117005 from "../img/Alumnus/M11117005.JPG";
+import M11117025 from "../img/Alumnus/M11117025.JPG";
+import M11117038 from "../img/Alumnus/M11117038.JPG";
+import M11117039 from "../img/Alumnus/M11117039.JPG";
+import M11117040 from "../img/Alumnus/M11117040.JPG";
+import M11117056 from "../img/Alumnus/M11117056.JPG"; 
+
 import { Descriptions } from "antd";
 
 import "slick-carousel/slick/slick.css";
@@ -877,6 +884,139 @@ const Alumnus = () => {
                 </div>
               </div>
             </div>
+            <div className="pic_Al" id="lastpic_Al">
+              <div className="card_bk">
+                <img src={M11117005} alt="M11117005"></img>
+                <div className="detail2_Al">
+                  <h4>陳毅澄</h4>
+                  <div className="Al_content">
+                    <Descriptions column={1}>
+                      <Descriptions.Item label="研究方向 ">
+                        高光譜影像處理
+                      </Descriptions.Item>
+                      <Descriptions.Item label="論文題目​ ">高光譜瑕疵檢測技術應用-以番茄為例</Descriptions.Item>
+                    </Descriptions>
+                  </div>
+                  <div className="Email_Al">
+                    <a href="/#">
+                      <i class="fas fa-envelope mail"></i>
+                    </a>
+                    <span>M11117005@yuntech.edu.tw</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="pic_Al" id="lastpic_Al">
+              <div className="card_bk">
+                <img src={M11117025} alt="M11117025"></img>
+                <div className="detail2_Al">
+                  <h4>洪翊祥</h4>
+                  <div className="Al_content">
+                    <Descriptions column={1}>
+                      <Descriptions.Item label="研究方向 ">
+                        高光譜影像處理
+                      </Descriptions.Item>
+                      <Descriptions.Item label="論文題目​ ">使用高光譜one-stage技術進行農產品瑕疵檢測</Descriptions.Item>
+                    </Descriptions>
+                  </div>
+                  <div className="Email_Al">
+                    <a href="/#">
+                      <i class="fas fa-envelope mail"></i>
+                    </a>
+                    <span>M11117025@yuntech.edu.tw</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="pic_Al" id="lastpic_Al">
+              <div className="card_bk">
+                <img src={M11117038} alt="M11117038"></img>
+                <div className="detail2_Al">
+                  <h4>郭子賢</h4>
+                  <div className="Al_content">
+                    <Descriptions column={1}>
+                      <Descriptions.Item label="研究方向 ">
+                        高光譜影像處理
+                      </Descriptions.Item>
+                      <Descriptions.Item label="論文題目​ ">基於高光譜目標檢測之AMMBN進行高光譜遙測影像分類</Descriptions.Item>
+                    </Descriptions>
+                  </div>
+                  <div className="Email_Al">
+                    <a href="/#">
+                      <i class="fas fa-envelope mail"></i>
+                    </a>
+                    <span>M11117038@yuntech.edu.tw</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="pic_Al" id="lastpic_Al">
+              <div className="card_bk">
+                <img src={M11117039} alt="M11117039"></img>
+                <div className="detail2_Al">
+                  <h4>黃泓瑜</h4>
+                  <div className="Al_content">
+                    <Descriptions column={1}>
+                      <Descriptions.Item label="研究方向 ">
+                        高光譜影像處理
+                      </Descriptions.Item>
+                      <Descriptions.Item label="論文題目​ ">基於深度學習之攝護腺指診D′Amico Risk等級分類預測</Descriptions.Item>
+                    </Descriptions>
+                  </div>
+                  <div className="Email_Al">
+                    <a href="/#">
+                      <i class="fas fa-envelope mail"></i>
+                    </a>
+                    <span>M11117039@yuntech.edu.tw</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="pic_Al" id="lastpic_Al">
+              <div className="card_bk">
+                <img src={M11117040} alt="M11117040"></img>
+                <div className="detail2_Al">
+                  <h4>劉冠良</h4>
+                  <div className="Al_content">
+                    <Descriptions column={1}>
+                      <Descriptions.Item label="研究方向 ">
+                        高光譜影像處理
+                      </Descriptions.Item>
+                      <Descriptions.Item label="論文題目​ ">基於高光譜目標檢測之樣本生成進行高光譜遙測影像小樣本分類</Descriptions.Item>
+                    </Descriptions>
+                  </div>
+                  <div className="Email_Al">
+                    <a href="/#">
+                      <i class="fas fa-envelope mail"></i>
+                    </a>
+                    <span>M11117040@yuntech.edu.tw</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="pic_Al" id="lastpic_Al">
+              <div className="card_bk">
+                <img src={M11117056} alt="M11117056"></img>
+                <div className="detail2_Al">
+                  <h4>黃翔雨</h4>
+                  <div className="Al_content">
+                    <Descriptions column={1}>
+                      <Descriptions.Item label="研究方向 ">
+                        高光譜影像處理
+                      </Descriptions.Item>
+                      <Descriptions.Item label="論文題目​ ">結合多光譜影像與LSOSP算法的手部血管影像分析與特徵增強</Descriptions.Item>
+                    </Descriptions>
+                  </div>
+                  <div className="Email_Al">
+                    <a href="/#">
+                      <i class="fas fa-envelope mail"></i>
+                    </a>
+                    <span>M11117056@yuntech.edu.tw</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </Slider>
         </div>
       </div>
